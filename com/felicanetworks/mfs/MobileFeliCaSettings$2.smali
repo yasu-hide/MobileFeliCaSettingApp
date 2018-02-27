@@ -39,7 +39,7 @@
 
     sget-object v1, Lcom/felicanetworks/mfs/AppStatus$State;->INIT_SUCCESS:Lcom/felicanetworks/mfs/AppStatus$State;
 
-    nop
+    invoke-virtual {v1}, Lcom/felicanetworks/mfs/AppStatus$State;->ordinal()I
 
     move-result v1
 
@@ -55,7 +55,7 @@
 
     sget-object v1, Lcom/felicanetworks/mfs/AppStatus$State;->CHECK_DONEINIT:Lcom/felicanetworks/mfs/AppStatus$State;
 
-    nop
+    invoke-virtual {v1}, Lcom/felicanetworks/mfs/AppStatus$State;->ordinal()I
 
     move-result v1
 
@@ -71,7 +71,7 @@
 
     sget-object v1, Lcom/felicanetworks/mfs/AppStatus$State;->READY:Lcom/felicanetworks/mfs/AppStatus$State;
 
-    nop
+    invoke-virtual {v1}, Lcom/felicanetworks/mfs/AppStatus$State;->ordinal()I
 
     move-result v1
 
@@ -87,7 +87,7 @@
 
     sget-object v1, Lcom/felicanetworks/mfs/AppStatus$State;->INIT_CANCEL:Lcom/felicanetworks/mfs/AppStatus$State;
 
-    nop
+    invoke-virtual {v1}, Lcom/felicanetworks/mfs/AppStatus$State;->ordinal()I
 
     move-result v1
 
@@ -103,7 +103,7 @@
 
     sget-object v1, Lcom/felicanetworks/mfs/AppStatus$State;->CHECK_NEEDINIT:Lcom/felicanetworks/mfs/AppStatus$State;
 
-    nop
+    invoke-virtual {v1}, Lcom/felicanetworks/mfs/AppStatus$State;->ordinal()I
 
     move-result v1
 
