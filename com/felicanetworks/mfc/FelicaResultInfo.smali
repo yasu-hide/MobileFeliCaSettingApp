@@ -62,7 +62,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/FelicaResultInfo"
 
     aput-object v2, v1, v3
 
@@ -73,7 +73,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/FelicaResultInfo"
 
     aput-object v2, v1, v3
 
@@ -105,7 +105,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/FelicaResultInfo"
 
     aput-object v2, v1, v3
 
@@ -126,7 +126,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/FelicaResultInfo"
 
     aput-object v2, v1, v3
 
@@ -164,7 +164,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/FelicaResultInfo"
 
     aput-object v2, v1, v4
 
@@ -201,7 +201,7 @@
 
     new-array v1, v7, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/FelicaResultInfo"
 
     aput-object v2, v1, v4
 
@@ -257,7 +257,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/FelicaResultInfo"
 
     aput-object v2, v1, v5
 
@@ -310,7 +310,7 @@
 
     new-array v1, v8, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/FelicaResultInfo"
 
     aput-object v2, v1, v5
 
@@ -363,7 +363,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/FelicaResultInfo"
 
     aput-object v2, v1, v5
 
@@ -403,7 +403,7 @@
 
     new-array v1, v7, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/FelicaResultInfo"
 
     aput-object v2, v1, v5
 
@@ -438,7 +438,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/FelicaResultInfo"
 
     aput-object v2, v1, v3
 
@@ -454,7 +454,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/FelicaResultInfo"
 
     aput-object v2, v1, v3
 
@@ -491,7 +491,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 getId"
 
     aput-object v2, v1, v3
 
@@ -504,7 +504,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 getId"
 
     aput-object v2, v1, v3
 
@@ -539,7 +539,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 getOtherAppInfo"
 
     aput-object v2, v1, v3
 
@@ -552,7 +552,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 getOtherAppInfo"
 
     aput-object v2, v1, v3
 
@@ -583,7 +583,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 getStatusFlag1"
 
     aput-object v2, v1, v3
 
@@ -596,7 +596,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 getStatusFlag1"
 
     aput-object v2, v1, v3
 
@@ -631,7 +631,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 getStatusFlag2"
 
     aput-object v2, v1, v3
 
@@ -644,7 +644,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 getStatusFlag2"
 
     aput-object v2, v1, v3
 
@@ -679,7 +679,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 getType"
 
     aput-object v2, v1, v3
 
@@ -692,7 +692,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 getType"
 
     aput-object v2, v1, v3
 
@@ -733,7 +733,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 readFromParcel"
 
     aput-object v2, v1, v3
 
@@ -789,7 +789,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 readFromParcel"
 
     aput-object v2, v1, v3
 
@@ -821,7 +821,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 writeToParcel"
 
     aput-object v2, v1, v4
 
@@ -875,7 +875,7 @@
 
     new-array v1, v5, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 writeToParcel"
 
     aput-object v2, v1, v4
 

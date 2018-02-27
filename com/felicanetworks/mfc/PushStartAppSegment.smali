@@ -59,7 +59,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/PushStartAppSegment"
 
     aput-object v2, v1, v3
 
@@ -73,7 +73,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/PushStartAppSegment"
 
     aput-object v2, v1, v3
 
@@ -123,7 +123,7 @@
 
     new-array v3, v8, [Ljava/lang/Object;
 
-    const-string v4, "000"
+    const-string v4, "000 mfc/PushStartAppSegment"
 
     aput-object v4, v3, v2
 
@@ -146,7 +146,7 @@
 
     new-array v3, v9, [Ljava/lang/Object;
 
-    const-string v4, "001"
+    const-string v4, "001 mfc/PushStartAppSegment"
 
     aput-object v4, v3, v2
 
@@ -161,7 +161,7 @@
 
     new-array v3, v9, [Ljava/lang/Object;
 
-    const-string v4, "001"
+    const-string v4, "001 mfc/PushStartAppSegment"
 
     aput-object v4, v3, v2
 
@@ -195,7 +195,7 @@
 
     new-array v3, v8, [Ljava/lang/Object;
 
-    const-string v4, "999"
+    const-string v4, "999 mfc/PushStartAppSegment"
 
     aput-object v4, v3, v2
 
@@ -214,7 +214,7 @@
 
     new-array v6, v9, [Ljava/lang/Object;
 
-    const-string v7, "001"
+    const-string v7, "001 mfc/PushStartAppSegment"
 
     aput-object v7, v6, v2
 
@@ -244,7 +244,7 @@
 
     new-array v1, v3, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 readFromParcel"
 
     aput-object v2, v1, v4
 
@@ -261,7 +261,7 @@
 
     new-array v1, v3, [Ljava/lang/Object;
 
-    const-string v2, "700"
+    const-string v2, "700 readFromParcel"
 
     aput-object v2, v1, v4
 
@@ -304,7 +304,7 @@
 
     new-array v1, v3, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 readFromParcel"
 
     aput-object v2, v1, v4
 
@@ -336,7 +336,7 @@
 
     new-array v1, v3, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 checkFormat"
 
     aput-object v2, v1, v4
 
@@ -359,7 +359,7 @@
 
     new-array v1, v3, [Ljava/lang/Object;
 
-    const-string v2, "700"
+    const-string v2, "700 checkFormat"
 
     aput-object v2, v1, v4
 
@@ -378,7 +378,7 @@
 
     new-array v1, v3, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 checkFormat"
 
     aput-object v2, v1, v4
 
@@ -403,7 +403,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 describeContents"
 
     aput-object v2, v1, v3
 
@@ -414,7 +414,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 describeContents"
 
     aput-object v2, v1, v3
 
@@ -439,7 +439,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 getAppIdentificationCode"
 
     aput-object v2, v1, v3
 
@@ -452,7 +452,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 getAppIdentificationCode"
 
     aput-object v2, v1, v3
 
@@ -483,7 +483,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 getAppStartupParam"
 
     aput-object v2, v1, v3
 
@@ -494,7 +494,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 getAppStartupParam"
 
     aput-object v2, v1, v3
 
@@ -521,7 +521,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 getAppURL"
 
     aput-object v2, v1, v3
 
@@ -534,7 +534,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 getAppURL"
 
     aput-object v2, v1, v3
 
@@ -573,7 +573,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 setAppIdentificationCode"
 
     aput-object v2, v1, v4
 
@@ -589,7 +589,7 @@
 
     new-array v1, v3, [Ljava/lang/Object;
 
-    const-string v2, "700"
+    const-string v2, "700 setAppIdentificationCode"
 
     aput-object v2, v1, v4
 
@@ -611,7 +611,7 @@
 
     new-array v1, v3, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 setAppIdentificationCode"
 
     aput-object v2, v1, v4
 
@@ -637,7 +637,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 setAppStartupParam"
 
     aput-object v2, v1, v3
 
@@ -651,7 +651,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 setAppStartupParam"
 
     aput-object v2, v1, v3
 
@@ -679,7 +679,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 setAppURL"
 
     aput-object v2, v1, v3
 
@@ -692,7 +692,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 setAppURL"
 
     aput-object v2, v1, v3
 
@@ -722,7 +722,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 writeToParcel"
 
     aput-object v2, v1, v3
 
@@ -748,7 +748,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 writeToParcel"
 
     aput-object v2, v1, v3
 

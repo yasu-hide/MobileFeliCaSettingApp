@@ -137,7 +137,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/FSC"
 
     aput-object v2, v1, v3
 
@@ -148,7 +148,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/FSC"
 
     aput-object v2, v1, v3
 
@@ -320,7 +320,7 @@
 
     new-array v1, v5, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 checkNotOnline"
 
     aput-object v2, v1, v4
 
@@ -336,7 +336,7 @@
 
     new-array v1, v3, [Ljava/lang/Object;
 
-    const-string v2, "700"
+    const-string v2, "700 checkNotOnline"
 
     aput-object v2, v1, v4
 
@@ -359,7 +359,7 @@
 
     new-array v1, v5, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 checkNotOnline"
 
     aput-object v2, v1, v4
 
@@ -387,7 +387,7 @@
 
     const/4 v3, 0x0
 
-    const-string v4, "000"
+    const-string v4, "000 terminate"
 
     aput-object v4, v2, v3
 
@@ -414,7 +414,7 @@
 
     const/4 v3, 0x0
 
-    const-string v4, "999"
+    const-string v4, "999 terminate"
 
     aput-object v4, v2, v3
 
@@ -458,7 +458,7 @@
 
     new-array v3, v5, [Ljava/lang/Object;
 
-    const-string v4, "000"
+    const-string v4, "000 bindMfc"
 
     aput-object v4, v3, v6
 
@@ -500,7 +500,7 @@
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    const-string v4, "700"
+    const-string v4, "700 bindMfc"
 
     aput-object v4, v3, v6
 
@@ -532,7 +532,7 @@
 
     new-array v3, v5, [Ljava/lang/Object;
 
-    const-string v4, "999"
+    const-string v4, "999 bindMfc"
 
     aput-object v4, v3, v6
 
@@ -560,7 +560,7 @@
 
     new-array v2, v4, [Ljava/lang/Object;
 
-    const-string v3, "000"
+    const-string v3, "000 convExceptionToListenerParameter"
 
     aput-object v3, v2, v5
 
@@ -580,7 +580,7 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    const-string v3, "700"
+    const-string v3, "700 convExceptionToListenerParameter"
 
     aput-object v3, v2, v5
 
@@ -616,7 +616,7 @@
 
     new-array v2, v4, [Ljava/lang/Object;
 
-    const-string v3, "999"
+    const-string v3, "999 convExceptionToListenerParameter"
 
     aput-object v3, v2, v5
 
@@ -636,7 +636,7 @@
 
     new-array v2, v4, [Ljava/lang/Object;
 
-    const-string v3, "001"
+    const-string v3, "001 convExceptionToListenerParameter"
 
     aput-object v3, v2, v5
 
@@ -656,7 +656,7 @@
 
     new-array v2, v4, [Ljava/lang/Object;
 
-    const-string v3, "002"
+    const-string v3, "002 convExceptionToListenerParameter"
 
     aput-object v3, v2, v5
 
@@ -676,7 +676,7 @@
 
     new-array v2, v4, [Ljava/lang/Object;
 
-    const-string v3, "003"
+    const-string v3, "003 convExceptionToListenerParameter"
 
     aput-object v3, v2, v5
 
@@ -696,7 +696,7 @@
 
     new-array v2, v4, [Ljava/lang/Object;
 
-    const-string v3, "004"
+    const-string v3, "004 convExceptionToListenerParameter"
 
     aput-object v3, v2, v5
 
@@ -716,7 +716,7 @@
 
     new-array v2, v4, [Ljava/lang/Object;
 
-    const-string v3, "005"
+    const-string v3, "005 convExceptionToListenerParameter"
 
     aput-object v3, v2, v5
 
@@ -736,7 +736,7 @@
 
     new-array v2, v4, [Ljava/lang/Object;
 
-    const-string v3, "006"
+    const-string v3, "006 convExceptionToListenerParameter"
 
     aput-object v3, v2, v5
 
@@ -781,7 +781,7 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    const-string v3, "000"
+    const-string v3, "000 convExceptionToListenerParameter"
 
     aput-object v3, v2, v6
 
@@ -806,7 +806,7 @@
 
     new-array v2, v5, [Ljava/lang/Object;
 
-    const-string v3, "999"
+    const-string v3, "999 convExceptionToListenerParameter"
 
     aput-object v3, v2, v6
 
@@ -842,7 +842,7 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    const-string v3, "000"
+    const-string v3, "000 convExceptionToListenerParameter"
 
     aput-object v3, v2, v6
 
@@ -867,7 +867,7 @@
 
     new-array v2, v5, [Ljava/lang/Object;
 
-    const-string v3, "999"
+    const-string v3, "999 convExceptionToListenerParameter"
 
     aput-object v3, v2, v6
 
@@ -901,7 +901,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "000"
+    const-string v11, "000 onBind"
 
     aput-object v11, v9, v10
 
@@ -1015,7 +1015,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "001"
+    const-string v11, "001 onBind"
 
     aput-object v11, v9, v10
 
@@ -1051,7 +1051,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "801 exported tag is enable."
+    const-string v11, "801 onBind exported tag is enable."
 
     aput-object v11, v9, v10
 
@@ -1074,7 +1074,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "999"
+    const-string v11, "999 onBind"
 
     aput-object v11, v9, v10
 
@@ -1108,7 +1108,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "802"
+    const-string v11, "802 onBind"
 
     aput-object v11, v9, v10
 
@@ -1139,7 +1139,7 @@
 
     new-array v2, v7, [Ljava/lang/Object;
 
-    const-string v3, "000"
+    const-string v3, "000 onDestroy"
 
     aput-object v3, v2, v6
 
@@ -1163,7 +1163,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "001"
+    const-string v5, "001 onDestroy"
 
     aput-object v5, v3, v4
 
@@ -1188,7 +1188,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "002"
+    const-string v5, "002 onDestroy"
 
     aput-object v5, v3, v4
 
@@ -1227,7 +1227,7 @@
 
     new-array v2, v7, [Ljava/lang/Object;
 
-    const-string v3, "999"
+    const-string v3, "999 onDestroy"
 
     aput-object v3, v2, v6
 
@@ -1253,7 +1253,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "003"
+    const-string v5, "003 onDestroy"
 
     aput-object v5, v3, v4
 
@@ -1293,7 +1293,7 @@
 
     new-array v2, v8, [Ljava/lang/Object;
 
-    const-string v3, "004"
+    const-string v3, "004 onDestroy"
 
     aput-object v3, v2, v6
 
@@ -1328,7 +1328,7 @@
 
     new-array v2, v7, [Ljava/lang/Object;
 
-    const-string v3, "000"
+    const-string v3, "000 onUnbind"
 
     aput-object v3, v2, v6
 
@@ -1352,7 +1352,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "001"
+    const-string v5, "001 onUnbind"
 
     aput-object v5, v3, v4
 
@@ -1377,7 +1377,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "002"
+    const-string v5, "002 onUnbind"
 
     aput-object v5, v3, v4
 
@@ -1413,7 +1413,7 @@
 
     new-array v2, v7, [Ljava/lang/Object;
 
-    const-string v3, "999"
+    const-string v3, "999 onUnbind"
 
     aput-object v3, v2, v6
 
@@ -1443,7 +1443,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "003"
+    const-string v5, "003 onUnbind"
 
     aput-object v5, v3, v4
 
@@ -1483,7 +1483,7 @@
 
     new-array v2, v8, [Ljava/lang/Object;
 
-    const-string v3, "004"
+    const-string v3, "004 onUnbind"
 
     aput-object v3, v2, v6
 
@@ -1522,7 +1522,7 @@
 
     const/4 v3, 0x0
 
-    const-string v4, "000"
+    const-string v4, "000 setDeviceList"
 
     aput-object v4, v2, v3
 
@@ -1545,7 +1545,7 @@
 
     const/4 v3, 0x0
 
-    const-string v4, "999"
+    const-string v4, "999 setDeviceList"
 
     aput-object v4, v2, v3
 
@@ -1591,7 +1591,7 @@
 
     const/4 v3, 0x0
 
-    const-string v4, "000"
+    const-string v4, "000 setFSCEventListener"
 
     aput-object v4, v2, v3
 
@@ -1614,7 +1614,7 @@
 
     const/4 v3, 0x0
 
-    const-string v4, "999"
+    const-string v4, "999 setFSCEventListener"
 
     aput-object v4, v2, v3
 
@@ -1660,7 +1660,7 @@
 
     const/4 v3, 0x0
 
-    const-string v4, "000"
+    const-string v4, "000 setFelica"
 
     aput-object v4, v2, v3
 
@@ -1683,7 +1683,7 @@
 
     const/4 v3, 0x0
 
-    const-string v4, "999"
+    const-string v4, "999 setFelica"
 
     aput-object v4, v2, v3
 
@@ -1730,7 +1730,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "000"
+    const-string v7, "000 start"
 
     aput-object v7, v5, v6
 
@@ -1750,7 +1750,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "700"
+    const-string v7, "700 start"
 
     aput-object v7, v5, v6
 
@@ -1802,7 +1802,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "701"
+    const-string v7, "701 start"
 
     aput-object v7, v5, v6
 
@@ -1844,7 +1844,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "702"
+    const-string v7, "702 start"
 
     aput-object v7, v5, v6
 
@@ -1886,7 +1886,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "703"
+    const-string v7, "703 start"
 
     aput-object v7, v5, v6
 
@@ -1964,7 +1964,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "999"
+    const-string v7, "999 start"
 
     aput-object v7, v5, v6
 
@@ -1994,7 +1994,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "712"
+    const-string v7, "712 start"
 
     aput-object v7, v5, v6
 
@@ -2050,7 +2050,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "711"
+    const-string v7, "711 start"
 
     aput-object v7, v5, v6
 
@@ -2121,7 +2121,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "710"
+    const-string v7, "710 start"
 
     aput-object v7, v5, v6
 
@@ -2177,7 +2177,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "711"
+    const-string v7, "711 start"
 
     aput-object v7, v5, v6
 
@@ -2217,7 +2217,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "799"
+    const-string v7, "799 start"
 
     aput-object v7, v5, v6
 
@@ -2274,7 +2274,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "000"
+    const-string v5, "000 stop"
 
     aput-object v5, v3, v4
 
@@ -2296,7 +2296,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "997"
+    const-string v5, "997 stop"
 
     aput-object v5, v3, v4
 
@@ -2334,7 +2334,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "998"
+    const-string v5, "998 stop"
 
     aput-object v5, v3, v4
 
@@ -2387,7 +2387,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "999"
+    const-string v5, "999 stop"
 
     aput-object v5, v3, v4
 
@@ -2411,7 +2411,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "700"
+    const-string v5, "700 stop"
 
     aput-object v5, v3, v4
 
@@ -2459,7 +2459,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "799"
+    const-string v5, "799 stop"
 
     aput-object v5, v3, v4
 
@@ -2501,7 +2501,7 @@
 
     new-array v2, v6, [Ljava/lang/Object;
 
-    const-string v3, "000"
+    const-string v3, "000 unbindMfc"
 
     aput-object v3, v2, v5
 
@@ -2512,7 +2512,7 @@
 
     new-array v2, v6, [Ljava/lang/Object;
 
-    const-string v3, "001"
+    const-string v3, "001 unbindMfc"
 
     aput-object v3, v2, v5
 
@@ -2548,7 +2548,7 @@
 
     new-array v2, v6, [Ljava/lang/Object;
 
-    const-string v3, "999"
+    const-string v3, "999 unbindMfc"
 
     aput-object v3, v2, v5
 
@@ -2567,7 +2567,7 @@
 
     new-array v2, v4, [Ljava/lang/Object;
 
-    const-string v3, "002"
+    const-string v3, "002 unbindMfc"
 
     aput-object v3, v2, v5
 

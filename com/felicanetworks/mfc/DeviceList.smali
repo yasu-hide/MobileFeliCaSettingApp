@@ -123,7 +123,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/DeviceList"
 
     aput-object v2, v1, v3
 
@@ -137,7 +137,7 @@
     invoke-direct {p0, p1}, Lcom/felicanetworks/mfc/DeviceList;->readFromParcel(Landroid/os/Parcel;)V
 
     .line 312
-    const-string v0, "999"
+    const-string v0, "999 mfc/DeviceList"
 
     new-array v1, v3, [Ljava/lang/Object;
 
@@ -257,7 +257,7 @@
 
     new-array v5, v5, [Ljava/lang/Object;
 
-    const-string v6, "000"
+    const-string v6, "000 readFromParcel"
 
     aput-object v6, v5, v7
 
@@ -301,7 +301,7 @@
     iput v4, p0, Lcom/felicanetworks/mfc/DeviceList;->nextID:I
 
     .line 301
-    const-string v4, "001 deviceList len=%d"
+    const-string v4, "001 readFromParcel deviceList len=%d"
 
     new-array v5, v9, [Ljava/lang/Object;
 
@@ -320,7 +320,7 @@
     invoke-static {v8, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;[Ljava/lang/Object;)V
 
     .line 302
-    const-string v4, "999"
+    const-string v4, "999 readFromParcel"
 
     new-array v5, v7, [Ljava/lang/Object;
 
@@ -551,7 +551,7 @@
 
     const/4 v12, 0x0
 
-    const-string v13, "000"
+    const-string v13, "000 checkFormat"
 
     aput-object v13, v11, v12
 
@@ -594,7 +594,7 @@
 
     const/4 v12, 0x0
 
-    const-string v13, "800"
+    const-string v13, "800 checkFormat"
 
     aput-object v13, v11, v12
 
@@ -649,7 +649,7 @@
 
     const/4 v12, 0x0
 
-    const-string v13, "801"
+    const-string v13, "801 checkFormat"
 
     aput-object v13, v11, v12
 
@@ -728,7 +728,7 @@
 
     const/4 v12, 0x0
 
-    const-string v13, "803"
+    const-string v13, "803 checkFormat"
 
     aput-object v13, v11, v12
 
@@ -767,7 +767,7 @@
 
     const/4 v12, 0x0
 
-    const-string v13, "802"
+    const-string v13, "802 checkFormat"
 
     aput-object v13, v11, v12
 
@@ -844,7 +844,7 @@
 
     const/4 v12, 0x0
 
-    const-string v13, "804"
+    const-string v13, "804 checkFormat"
 
     aput-object v13, v11, v12
 
@@ -908,7 +908,7 @@
 
     const/4 v12, 0x0
 
-    const-string v13, "999"
+    const-string v13, "999 checkFormat"
 
     aput-object v13, v11, v12
 
@@ -1013,7 +1013,7 @@
 
     const/4 v12, 0x0
 
-    const-string v13, "805"
+    const-string v13, "805 checkFormat"
 
     aput-object v13, v11, v12
 
@@ -1245,7 +1245,7 @@
 
     new-array v5, v5, [Ljava/lang/Object;
 
-    const-string v6, "000"
+    const-string v6, "000 writeToParcel"
 
     aput-object v6, v5, v8
 
@@ -1262,7 +1262,7 @@
     invoke-static {v3, v4, v5}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;[Ljava/lang/Object;)V
 
     .line 323
-    const-string v3, "001 deviceList len=%d"
+    const-string v3, "001 writeToParcel deviceList len=%d"
 
     new-array v4, v9, [Ljava/lang/Object;
 
@@ -1318,7 +1318,7 @@
     invoke-virtual {p1, v3}, Landroid/os/Parcel;->writeInt(I)V
 
     .line 337
-    const-string v3, "999"
+    const-string v3, "999 writeToParcel"
 
     new-array v4, v8, [Ljava/lang/Object;
 

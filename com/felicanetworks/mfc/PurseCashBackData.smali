@@ -95,7 +95,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/PurseCashBackData"
 
     aput-object v2, v1, v3
 
@@ -109,7 +109,7 @@
     invoke-direct {p0, p1}, Lcom/felicanetworks/mfc/PurseCashBackData;->readFromParcel(Landroid/os/Parcel;)V
 
     .line 198
-    const-string v0, "999"
+    const-string v0, "999 mfc/PurseCashBackData"
 
     new-array v1, v3, [Ljava/lang/Object;
 
@@ -147,7 +147,7 @@
 
     new-array v1, v3, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 readFromParcel"
 
     aput-object v2, v1, v4
 
@@ -170,7 +170,7 @@
     iput v0, p0, Lcom/felicanetworks/mfc/PurseCashBackData;->execID:I
 
     .line 187
-    const-string v0, "001 cashBackData=%d execID=%d"
+    const-string v0, "001 readFromParcel cashBackData=%d execID=%d"
 
     new-array v1, v3, [Ljava/lang/Object;
 
@@ -193,7 +193,7 @@
     invoke-static {v5, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;[Ljava/lang/Object;)V
 
     .line 188
-    const-string v0, "999"
+    const-string v0, "999 readFromParcel"
 
     new-array v1, v4, [Ljava/lang/Object;
 
@@ -223,7 +223,7 @@
     const/4 v4, 0x0
 
     .line 237
-    const-string v0, "000"
+    const-string v0, "000 checkFormat"
 
     new-array v1, v4, [Ljava/lang/Object;
 
@@ -252,7 +252,7 @@
 
     new-array v1, v6, [Ljava/lang/Object;
 
-    const-string v2, "800"
+    const-string v2, "800 checkFormat"
 
     aput-object v2, v1, v4
 
@@ -293,7 +293,7 @@
 
     new-array v1, v6, [Ljava/lang/Object;
 
-    const-string v2, "801"
+    const-string v2, "801 checkFormat"
 
     aput-object v2, v1, v4
 
@@ -318,7 +318,7 @@
 
     .line 247
     :cond_3
-    const-string v0, "999"
+    const-string v0, "999 checkFormat"
 
     new-array v1, v4, [Ljava/lang/Object;
 
@@ -465,7 +465,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 writeToParcel"
 
     aput-object v2, v1, v5
 
@@ -492,7 +492,7 @@
     .line 226
     const/4 v0, 0x6
 
-    const-string v1, "001 cashBackData=%d execID=%d"
+    const-string v1, "001 writeToParcel cashBackData=%d execID=%d"
 
     new-array v2, v3, [Ljava/lang/Object;
 
@@ -515,7 +515,7 @@
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;[Ljava/lang/Object;)V
 
     .line 227
-    const-string v0, "999"
+    const-string v0, "999 writeToParcel"
 
     new-array v1, v5, [Ljava/lang/Object;
 

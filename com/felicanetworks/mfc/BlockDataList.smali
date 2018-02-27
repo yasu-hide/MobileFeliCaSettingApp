@@ -82,7 +82,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/BlockDataList"
 
     aput-object v2, v1, v3
 
@@ -103,7 +103,7 @@
     invoke-direct {p0, p1}, Lcom/felicanetworks/mfc/BlockDataList;->readFromParcel(Landroid/os/Parcel;)V
 
     .line 230
-    const-string v0, "999"
+    const-string v0, "999 mfc/BlockDataList"
 
     new-array v1, v3, [Ljava/lang/Object;
 
@@ -141,7 +141,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 readFromParcel"
 
     aput-object v2, v1, v4
 
@@ -163,7 +163,7 @@
     .line 218
     const/4 v0, 0x7
 
-    const-string v1, "001 blockDataList len=%d"
+    const-string v1, "001 readFromParcel blockDataList len=%d"
 
     new-array v2, v3, [Ljava/lang/Object;
 
@@ -182,7 +182,7 @@
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;[Ljava/lang/Object;)V
 
     .line 219
-    const-string v0, "999"
+    const-string v0, "999 readFromParcel"
 
     new-array v1, v4, [Ljava/lang/Object;
 
@@ -350,7 +350,7 @@
     const/4 v5, 0x0
 
     .line 268
-    const-string v2, "000"
+    const-string v2, "000 checkFormat"
 
     new-array v3, v5, [Ljava/lang/Object;
 
@@ -376,7 +376,7 @@
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    const-string v4, "800"
+    const-string v4, "800 checkFormat"
 
     aput-object v4, v3, v5
 
@@ -409,7 +409,7 @@
     if-lt v1, v2, :cond_1
 
     .line 287
-    const-string v2, "999"
+    const-string v2, "999 checkFormat"
 
     new-array v3, v5, [Ljava/lang/Object;
 
@@ -433,7 +433,7 @@
     if-nez v0, :cond_2
 
     .line 282
-    const-string v2, "801"
+    const-string v2, "801 checkFormat"
 
     new-array v3, v5, [Ljava/lang/Object;
 
@@ -619,7 +619,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 writeToParcel"
 
     aput-object v2, v1, v4
 
@@ -638,7 +638,7 @@
     .line 253
     const/4 v0, 0x6
 
-    const-string v1, "001 blockDataList len=%d"
+    const-string v1, "001 writeToParcel blockDataList len=%d"
 
     new-array v2, v5, [Ljava/lang/Object;
 
@@ -662,7 +662,7 @@
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeList(Ljava/util/List;)V
 
     .line 258
-    const-string v0, "999"
+    const-string v0, "999 writeToParcel"
 
     new-array v1, v4, [Ljava/lang/Object;
 

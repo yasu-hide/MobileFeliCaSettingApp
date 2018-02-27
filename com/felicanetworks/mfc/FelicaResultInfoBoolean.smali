@@ -69,7 +69,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/FelicaResultInfoBoolean"
 
     aput-object v2, v1, v3
 
@@ -92,7 +92,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/FelicaResultInfoBoolean"
 
     aput-object v2, v1, v3
 
@@ -126,7 +126,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/FelicaResultInfoBoolean"
 
     aput-object v2, v1, v5
 
@@ -163,7 +163,7 @@
 
     new-array v1, v6, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/FelicaResultInfoBoolean"
 
     aput-object v2, v1, v5
 
@@ -199,7 +199,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/FelicaResultInfoBoolean"
 
     aput-object v2, v1, v5
 
@@ -252,7 +252,7 @@
 
     new-array v1, v6, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/FelicaResultInfoBoolean"
 
     aput-object v2, v1, v5
 
@@ -285,7 +285,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/FelicaResultInfoBoolean"
 
     aput-object v2, v1, v3
 
@@ -301,7 +301,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/FelicaResultInfoBoolean"
 
     aput-object v2, v1, v3
 
@@ -342,7 +342,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/FelicaResultInfoBoolean"
 
     aput-object v2, v1, v3
 
@@ -355,7 +355,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/FelicaResultInfoBoolean"
 
     aput-object v2, v1, v3
 
@@ -395,7 +395,7 @@
 
     new-array v4, v4, [Ljava/lang/Object;
 
-    const-string v5, "000"
+    const-string v5, "000 readFromParcel"
 
     aput-object v5, v4, v2
 
@@ -418,7 +418,7 @@
     .line 106
     const/4 v3, 0x7
 
-    const-string v4, "001 intValue=%d"
+    const-string v4, "001 readFromParcel intValue=%d"
 
     new-array v5, v1, [Ljava/lang/Object;
 
@@ -442,7 +442,7 @@
 
     .line 110
     :cond_0
-    const-string v1, "999"
+    const-string v1, "999 readFromParcel"
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -477,7 +477,7 @@
 
     new-array v4, v4, [Ljava/lang/Object;
 
-    const-string v5, "000"
+    const-string v5, "000 writeToParcel"
 
     aput-object v5, v4, v3
 
@@ -508,7 +508,7 @@
     .line 143
     const/4 v1, 0x7
 
-    const-string v4, "001 value is not null"
+    const-string v4, "001 writeToParcel value is not null"
 
     new-array v5, v3, [Ljava/lang/Object;
 
@@ -532,7 +532,7 @@
     :goto_0
     const/4 v1, 0x6
 
-    const-string v4, "002 intValue=%d"
+    const-string v4, "002 writeToParcel intValue=%d"
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -548,7 +548,7 @@
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
     .line 149
-    const-string v1, "999"
+    const-string v1, "999 writeToParcel"
 
     new-array v2, v3, [Ljava/lang/Object;
 

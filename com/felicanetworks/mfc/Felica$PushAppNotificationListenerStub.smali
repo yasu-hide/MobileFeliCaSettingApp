@@ -43,7 +43,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/Felica$PushAppNotificationListenerStub"
 
     aput-object v2, v1, v3
 
@@ -57,7 +57,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/Felica$PushAppNotificationListenerStub"
 
     aput-object v2, v1, v3
 
@@ -98,7 +98,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "000"
+    const-string v5, "000 pushAppNotified"
 
     aput-object v5, v3, v4
 
@@ -126,7 +126,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "001"
+    const-string v5, "001 pushAppNotified"
 
     aput-object v5, v3, v4
 
@@ -152,7 +152,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "002"
+    const-string v5, "002 pushAppNotified"
 
     aput-object v5, v3, v4
 
@@ -192,7 +192,7 @@
 
     new-array v2, v7, [Ljava/lang/Object;
 
-    const-string v3, "999"
+    const-string v3, "999 pushAppNotified"
 
     aput-object v3, v2, v6
 
@@ -225,7 +225,7 @@
 
     new-array v2, v9, [Ljava/lang/Object;
 
-    const-string v3, "700"
+    const-string v3, "700 pushAppNotified"
 
     aput-object v3, v2, v6
 
@@ -259,7 +259,7 @@
 
     const/4 v3, 0x0
 
-    const-string v4, "000"
+    const-string v4, "000 setListener"
 
     aput-object v4, v2, v3
 
@@ -279,7 +279,7 @@
 
     const/4 v3, 0x0
 
-    const-string v4, "999"
+    const-string v4, "999 setListener"
 
     aput-object v4, v2, v3
 

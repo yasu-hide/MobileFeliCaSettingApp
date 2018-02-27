@@ -163,7 +163,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/Block"
 
     aput-object v2, v1, v3
 
@@ -177,7 +177,7 @@
     invoke-direct {p0, p1}, Lcom/felicanetworks/mfc/Block;->readFromParcel(Landroid/os/Parcel;)V
 
     .line 302
-    const-string v0, "999"
+    const-string v0, "999 mfc/Block"
 
     new-array v1, v3, [Ljava/lang/Object;
 
@@ -215,7 +215,7 @@
 
     new-array v1, v6, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 readFromParcel"
 
     aput-object v2, v1, v3
 
@@ -245,7 +245,7 @@
     iput v0, p0, Lcom/felicanetworks/mfc/Block;->type:I
 
     .line 291
-    const-string v0, "001 serviceCode=%d type=%d blockNo=%d"
+    const-string v0, "001 readFromParcel serviceCode=%d type=%d blockNo=%d"
 
     const/4 v1, 0x3
 
@@ -278,7 +278,7 @@
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;[Ljava/lang/Object;)V
 
     .line 292
-    const-string v0, "999"
+    const-string v0, "999 readFromParcel"
 
     new-array v1, v3, [Ljava/lang/Object;
 
@@ -304,7 +304,7 @@
     const/4 v4, 0x0
 
     .line 342
-    const-string v1, "000"
+    const-string v1, "000 checkFormat"
 
     new-array v2, v4, [Ljava/lang/Object;
 
@@ -341,7 +341,7 @@
 
     new-instance v2, Ljava/lang/StringBuilder;
 
-    const-string v3, "800 type is invalid "
+    const-string v3, "800 checkFormat type is invalid "
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -378,7 +378,7 @@
 
     .line 355
     :cond_0
-    const-string v1, "999"
+    const-string v1, "999 checkFormat"
 
     new-array v2, v4, [Ljava/lang/Object;
 
@@ -501,7 +501,7 @@
 
     new-array v1, v3, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 writeToParcel"
 
     aput-object v2, v1, v4
 
@@ -518,7 +518,7 @@
     .line 325
     const/4 v0, 0x6
 
-    const-string v1, "001 serviceCode=%d type=%d blockNo=%d"
+    const-string v1, "001 writeToParcel serviceCode=%d type=%d blockNo=%d"
 
     new-array v2, v3, [Ljava/lang/Object;
 
@@ -564,7 +564,7 @@
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
     .line 332
-    const-string v0, "999"
+    const-string v0, "999 writeToParcel"
 
     new-array v1, v4, [Ljava/lang/Object;
 

@@ -57,7 +57,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/RandomData"
 
     aput-object v2, v1, v3
 
@@ -71,7 +71,7 @@
     invoke-direct {p0, p1}, Lcom/felicanetworks/mfc/RandomData;->readFromParcel(Landroid/os/Parcel;)V
 
     .line 132
-    const-string v0, "999"
+    const-string v0, "999 mfc/RandomData"
 
     new-array v1, v3, [Ljava/lang/Object;
 
@@ -129,7 +129,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 readFromParcel"
 
     aput-object v2, v1, v5
 
@@ -152,7 +152,7 @@
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->readByteArray([B)V
 
     .line 120
-    const-string v0, "001 bytes.length=%d bytes[]:%d %d %d ... %d"
+    const-string v0, "001 readFromParcel bytes.length=%d bytes[]:%d %d %d ... %d"
 
     const/4 v1, 0x5
 
@@ -223,7 +223,7 @@
     invoke-static {v6, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;[Ljava/lang/Object;)V
 
     .line 122
-    const-string v0, "999"
+    const-string v0, "999 readFromParcel"
 
     new-array v1, v5, [Ljava/lang/Object;
 
@@ -249,7 +249,7 @@
     const/4 v2, 0x0
 
     .line 171
-    const-string v0, "000"
+    const-string v0, "000 checkFormat"
 
     new-array v1, v2, [Ljava/lang/Object;
 
@@ -261,7 +261,7 @@
     invoke-virtual {p0, v0}, Lcom/felicanetworks/mfc/RandomData;->checkBytes([B)V
 
     .line 173
-    const-string v0, "999"
+    const-string v0, "999 checkFormat"
 
     new-array v1, v2, [Ljava/lang/Object;
 
@@ -342,7 +342,7 @@
 
     new-array v1, v8, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 writeToParcel"
 
     aput-object v2, v1, v5
 
@@ -359,7 +359,7 @@
     .line 155
     const/4 v0, 0x6
 
-    const-string v1, "001 bytes.length=%d bytes[]:%d %d %d ... %d"
+    const-string v1, "001 writeToParcel bytes.length=%d bytes[]:%d %d %d ... %d"
 
     const/4 v2, 0x5
 
@@ -431,7 +431,7 @@
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeByteArray([B)V
 
     .line 161
-    const-string v0, "999"
+    const-string v0, "999 writeToParcel"
 
     new-array v1, v5, [Ljava/lang/Object;
 

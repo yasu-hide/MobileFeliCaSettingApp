@@ -53,7 +53,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "000"
+    const-string v11, "000 onServiceConnected"
 
     aput-object v11, v9, v10
 
@@ -134,7 +134,7 @@
 
     const/4 v11, 0x0
 
-    const-string v12, "001"
+    const-string v12, "001 onServiceConnected"
 
     aput-object v12, v10, v11
 
@@ -190,7 +190,7 @@
 
     const/4 v11, 0x0
 
-    const-string v12, "010"
+    const-string v12, "010 onServiceConnected"
 
     aput-object v12, v10, v11
 
@@ -217,7 +217,7 @@
 
     const/4 v11, 0x0
 
-    const-string v12, "011"
+    const-string v12, "011 onServiceConnected"
 
     aput-object v12, v10, v11
 
@@ -262,7 +262,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "700"
+    const-string v11, "700 onServiceConnected"
 
     aput-object v11, v9, v10
 
@@ -282,7 +282,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "020"
+    const-string v11, "020 onServiceConnected"
 
     aput-object v11, v9, v10
 
@@ -303,7 +303,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "999"
+    const-string v11, "999 onServiceConnected"
 
     aput-object v11, v9, v10
 
@@ -330,7 +330,7 @@
 
     const/4 v11, 0x0
 
-    const-string v12, "002"
+    const-string v12, "002 onServiceConnected"
 
     aput-object v12, v10, v11
 
@@ -355,7 +355,7 @@
 
     const/4 v11, 0x0
 
-    const-string v12, "702"
+    const-string v12, "702 onServiceConnected"
 
     aput-object v12, v10, v11
 
@@ -403,7 +403,7 @@
 
     const/4 v11, 0x0
 
-    const-string v12, "010"
+    const-string v12, "010 onServiceConnected"
 
     aput-object v12, v10, v11
 
@@ -430,7 +430,7 @@
 
     const/4 v11, 0x0
 
-    const-string v12, "011"
+    const-string v12, "011 onServiceConnected"
 
     aput-object v12, v10, v11
 
@@ -492,7 +492,7 @@
 
     const/4 v11, 0x0
 
-    const-string v12, "700"
+    const-string v12, "700 onServiceConnected"
 
     aput-object v12, v10, v11
 
@@ -559,7 +559,7 @@
 
     const/4 v12, 0x0
 
-    const-string v13, "010"
+    const-string v13, "010 onServiceConnected"
 
     aput-object v13, v11, v12
 
@@ -586,7 +586,7 @@
 
     const/4 v12, 0x0
 
-    const-string v13, "011"
+    const-string v13, "011 onServiceConnected"
 
     aput-object v13, v11, v12
 
@@ -634,7 +634,7 @@
 
     const/4 v11, 0x0
 
-    const-string v12, "701"
+    const-string v12, "701 onServiceConnected"
 
     aput-object v12, v10, v11
 
@@ -683,7 +683,7 @@
 
     const/4 v11, 0x0
 
-    const-string v12, "703"
+    const-string v12, "703 onServiceConnected"
 
     aput-object v12, v10, v11
 
@@ -714,7 +714,7 @@
 
     const/4 v11, 0x0
 
-    const-string v12, "010"
+    const-string v12, "010 onServiceConnected"
 
     aput-object v12, v10, v11
 
@@ -741,7 +741,7 @@
 
     const/4 v11, 0x0
 
-    const-string v12, "011"
+    const-string v12, "011 onServiceConnected"
 
     aput-object v12, v10, v11
 
@@ -782,7 +782,7 @@
 
     const/4 v11, 0x0
 
-    const-string v12, "704"
+    const-string v12, "704 onServiceConnected"
 
     aput-object v12, v10, v11
 
@@ -827,7 +827,7 @@
 
     new-array v5, v5, [Ljava/lang/Object;
 
-    const-string v6, "000"
+    const-string v6, "000 onServiceDisconnected"
 
     aput-object v6, v5, v10
 
@@ -877,7 +877,7 @@
 
     const/4 v8, 0x0
 
-    const-string v9, "001"
+    const-string v9, "001 onServiceDisconnected"
 
     aput-object v9, v7, v8
 
@@ -916,7 +916,7 @@
 
     new-array v5, v11, [Ljava/lang/Object;
 
-    const-string v6, "002"
+    const-string v6, "002 onServiceDisconnected"
 
     aput-object v6, v5, v10
 
@@ -931,7 +931,7 @@
 
     new-array v5, v11, [Ljava/lang/Object;
 
-    const-string v6, "999"
+    const-string v6, "999 onServiceDisconnected"
 
     aput-object v6, v5, v10
 

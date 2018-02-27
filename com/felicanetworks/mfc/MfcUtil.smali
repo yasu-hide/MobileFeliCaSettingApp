@@ -41,7 +41,7 @@
 
     new-array v1, v5, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 checkMfcResult"
 
     aput-object v2, v1, v3
 
@@ -55,7 +55,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "704"
+    const-string v2, "704 checkMfcResult"
 
     aput-object v2, v1, v3
 
@@ -80,7 +80,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "002"
+    const-string v2, "002 checkMfcResult"
 
     aput-object v2, v1, v3
 
@@ -108,7 +108,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "703"
+    const-string v2, "703 checkMfcResult"
 
     aput-object v2, v1, v3
 
@@ -133,7 +133,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "701"
+    const-string v2, "701 checkMfcResult"
 
     aput-object v2, v1, v3
 
@@ -233,7 +233,7 @@
 
     new-array v1, v6, [Ljava/lang/Object;
 
-    const-string v2, "702"
+    const-string v2, "702 checkMfcResult"
 
     aput-object v2, v1, v3
 
@@ -266,7 +266,7 @@
 
     new-array v1, v6, [Ljava/lang/Object;
 
-    const-string v2, "704"
+    const-string v2, "704 checkMfcResult"
 
     aput-object v2, v1, v3
 
@@ -295,7 +295,7 @@
 
     new-array v1, v5, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 checkMfcResult"
 
     aput-object v2, v1, v3
 

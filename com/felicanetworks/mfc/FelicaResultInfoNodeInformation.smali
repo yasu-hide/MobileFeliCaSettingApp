@@ -69,7 +69,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/FelicaResultInfoNodeInformation"
 
     aput-object v2, v1, v3
 
@@ -92,7 +92,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/FelicaResultInfoNodeInformation"
 
     aput-object v2, v1, v3
 
@@ -126,7 +126,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/FelicaResultInfoNodeInformation"
 
     aput-object v2, v1, v5
 
@@ -163,7 +163,7 @@
 
     new-array v1, v6, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/FelicaResultInfoNodeInformation"
 
     aput-object v2, v1, v5
 
@@ -199,7 +199,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/FelicaResultInfoNodeInformation"
 
     aput-object v2, v1, v5
 
@@ -252,7 +252,7 @@
 
     new-array v1, v6, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/FelicaResultInfoNodeInformation"
 
     aput-object v2, v1, v5
 
@@ -283,7 +283,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/FelicaResultInfoNodeInformation"
 
     aput-object v2, v1, v3
 
@@ -297,7 +297,7 @@
     invoke-virtual {p0, p1}, Lcom/felicanetworks/mfc/FelicaResultInfoNodeInformation;->readFromParcel(Landroid/os/Parcel;)V
 
     .line 117
-    const-string v0, "999"
+    const-string v0, "999 mfc/FelicaResultInfoNodeInformation"
 
     new-array v1, v3, [Ljava/lang/Object;
 
@@ -338,7 +338,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/FelicaResultInfoNodeInformation"
 
     aput-object v2, v1, v3
 
@@ -351,7 +351,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/FelicaResultInfoNodeInformation"
 
     aput-object v2, v1, v3
 
@@ -389,7 +389,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 describeContents"
 
     aput-object v2, v1, v3
 
@@ -418,7 +418,7 @@
     iput-object v0, p0, Lcom/felicanetworks/mfc/FelicaResultInfoNodeInformation;->value:Ljava/lang/Object;
 
     .line 106
-    const-string v0, "999"
+    const-string v0, "999 describeContents"
 
     new-array v1, v3, [Ljava/lang/Object;
 
@@ -445,7 +445,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 writeToParcel"
 
     aput-object v2, v1, v4
 
@@ -474,7 +474,7 @@
     invoke-virtual {p1, v0, p2}, Landroid/os/Parcel;->writeParcelable(Landroid/os/Parcelable;I)V
 
     .line 138
-    const-string v0, "999"
+    const-string v0, "999 writeToParcel"
 
     new-array v1, v4, [Ljava/lang/Object;
 

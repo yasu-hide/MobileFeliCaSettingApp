@@ -114,7 +114,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/BlockCountInformation"
 
     aput-object v2, v1, v3
 
@@ -128,7 +128,7 @@
     invoke-virtual {p0, p1}, Lcom/felicanetworks/mfc/BlockCountInformation;->readFromParcel(Landroid/os/Parcel;)V
 
     .line 151
-    const-string v0, "999"
+    const-string v0, "999 mfc/BlockCountInformation"
 
     new-array v1, v3, [Ljava/lang/Object;
 
@@ -200,7 +200,7 @@
 
     new-array v2, v6, [Ljava/lang/Object;
 
-    const-string v3, "000"
+    const-string v3, "000 readFromParcel"
 
     aput-object v3, v2, v4
 
@@ -223,7 +223,7 @@
     iput v0, p0, Lcom/felicanetworks/mfc/BlockCountInformation;->emptyBlocks:I
 
     .line 140
-    const-string v0, "001 assignedBlocks=%d emptyBlocks=%d"
+    const-string v0, "001 readFromParcel assignedBlocks=%d emptyBlocks=%d"
 
     new-array v1, v6, [Ljava/lang/Object;
 
@@ -246,7 +246,7 @@
     invoke-static {v7, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;[Ljava/lang/Object;)V
 
     .line 141
-    const-string v0, "999"
+    const-string v0, "999 readFromParcel"
 
     new-array v1, v4, [Ljava/lang/Object;
 
@@ -345,7 +345,7 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    const-string v3, "000"
+    const-string v3, "000 writeToParcel"
 
     aput-object v3, v2, v4
 
@@ -360,7 +360,7 @@
     invoke-static {v0, v1, v2}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;[Ljava/lang/Object;)V
 
     .line 174
-    const-string v0, "001 assignedBlocks=%d emptyBlocks=%d"
+    const-string v0, "001 writeToParcel assignedBlocks=%d emptyBlocks=%d"
 
     new-array v1, v6, [Ljava/lang/Object;
 
@@ -393,7 +393,7 @@
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
     .line 179
-    const-string v0, "999"
+    const-string v0, "999 writeToParcel"
 
     new-array v1, v4, [Ljava/lang/Object;
 

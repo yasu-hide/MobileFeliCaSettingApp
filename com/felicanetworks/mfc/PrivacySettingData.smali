@@ -70,7 +70,7 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    const-string v3, "000"
+    const-string v3, "000 mfc/PrivacySettingData"
 
     aput-object v3, v2, v5
 
@@ -109,7 +109,7 @@
 
     new-array v2, v4, [Ljava/lang/Object;
 
-    const-string v3, "999"
+    const-string v3, "999 mfc/PrivacySettingData"
 
     aput-object v3, v2, v5
 
@@ -128,7 +128,7 @@
 
     new-array v2, v6, [Ljava/lang/Object;
 
-    const-string v3, "800"
+    const-string v3, "800 mfc/PrivacySettingData"
 
     aput-object v3, v2, v5
 
@@ -167,7 +167,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/PrivacySettingData"
 
     aput-object v2, v1, v3
 
@@ -181,7 +181,7 @@
     invoke-direct {p0, p1}, Lcom/felicanetworks/mfc/PrivacySettingData;->readFromParcel(Landroid/os/Parcel;)V
 
     .line 164
-    const-string v0, "999"
+    const-string v0, "999 mfc/PrivacySettingData"
 
     new-array v1, v3, [Ljava/lang/Object;
 
@@ -219,7 +219,7 @@
 
     new-array v3, v6, [Ljava/lang/Object;
 
-    const-string v4, "000"
+    const-string v4, "000 readFromParcel"
 
     aput-object v4, v3, v2
 
@@ -247,7 +247,7 @@
     iput-boolean v0, p0, Lcom/felicanetworks/mfc/PrivacySettingData;->privacySetting:Z
 
     .line 153
-    const-string v0, "001 nodeCode=%d privacySetting=%b"
+    const-string v0, "001 readFromParcel nodeCode=%d privacySetting=%b"
 
     new-array v3, v6, [Ljava/lang/Object;
 
@@ -270,7 +270,7 @@
     invoke-static {v5, v0, v3}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;[Ljava/lang/Object;)V
 
     .line 154
-    const-string v0, "999"
+    const-string v0, "999 readFromParcel"
 
     new-array v1, v2, [Ljava/lang/Object;
 
@@ -302,7 +302,7 @@
     const/4 v2, 0x0
 
     .line 203
-    const-string v0, "000"
+    const-string v0, "000 checkFormat"
 
     new-array v1, v2, [Ljava/lang/Object;
 
@@ -318,7 +318,7 @@
     invoke-virtual {v0, v1}, Lcom/felicanetworks/mfc/ServiceUtil;->checkNodeCode(I)V
 
     .line 205
-    const-string v0, "999"
+    const-string v0, "999 checkFormat"
 
     new-array v1, v2, [Ljava/lang/Object;
 
@@ -353,7 +353,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 getNodeCode"
 
     aput-object v2, v1, v3
 
@@ -366,7 +366,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 getNodeCode"
 
     aput-object v2, v1, v3
 
@@ -401,7 +401,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 getPrivacySetting"
 
     aput-object v2, v1, v3
 
@@ -414,7 +414,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 getPrivacySetting"
 
     aput-object v2, v1, v3
 
@@ -457,7 +457,7 @@
 
     new-array v3, v7, [Ljava/lang/Object;
 
-    const-string v4, "000"
+    const-string v4, "000 setNodeCode"
 
     aput-object v4, v3, v6
 
@@ -489,7 +489,7 @@
 
     new-array v3, v5, [Ljava/lang/Object;
 
-    const-string v4, "999"
+    const-string v4, "999 setNodeCode"
 
     aput-object v4, v3, v6
 
@@ -508,7 +508,7 @@
 
     new-array v2, v7, [Ljava/lang/Object;
 
-    const-string v3, "800"
+    const-string v3, "800 setNodeCode"
 
     aput-object v3, v2, v6
 
@@ -546,7 +546,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 setPraivacySetting"
 
     aput-object v2, v1, v3
 
@@ -566,7 +566,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 setPraivacySetting"
 
     aput-object v2, v1, v3
 
@@ -597,7 +597,7 @@
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    const-string v4, "000"
+    const-string v4, "000 writeToParcel"
 
     aput-object v4, v3, v1
 
@@ -614,7 +614,7 @@
     .line 187
     const/4 v2, 0x6
 
-    const-string v3, "001 nodeCode=%d privacySetting=%b"
+    const-string v3, "001 writeToParcel nodeCode=%d privacySetting=%b"
 
     new-array v4, v5, [Ljava/lang/Object;
 
@@ -650,7 +650,7 @@
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
     .line 193
-    const-string v0, "999"
+    const-string v0, "999 writeToParcel"
 
     new-array v1, v1, [Ljava/lang/Object;
 

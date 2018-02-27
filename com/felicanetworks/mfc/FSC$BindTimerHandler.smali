@@ -55,7 +55,7 @@
 
     new-array v2, v4, [Ljava/lang/Object;
 
-    const-string v3, "000"
+    const-string v3, "000 handleMessage"
 
     aput-object v3, v2, v8
 
@@ -79,7 +79,7 @@
 
     new-array v2, v9, [Ljava/lang/Object;
 
-    const-string v3, "800"
+    const-string v3, "800 handleMessage"
 
     aput-object v3, v2, v8
 
@@ -143,7 +143,7 @@
 
     const/4 v5, 0x0
 
-    const-string v6, "001"
+    const-string v6, "001 handleMessage"
 
     aput-object v6, v4, v5
 
@@ -184,7 +184,7 @@
 
     new-array v2, v7, [Ljava/lang/Object;
 
-    const-string v3, "010"
+    const-string v3, "010 handleMessage"
 
     aput-object v3, v2, v8
 
@@ -205,7 +205,7 @@
 
     new-array v2, v7, [Ljava/lang/Object;
 
-    const-string v3, "999"
+    const-string v3, "999 handleMessage"
 
     aput-object v3, v2, v8
 
@@ -245,7 +245,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 startTimer"
 
     aput-object v2, v1, v5
 
@@ -267,7 +267,7 @@
 
     new-array v2, v4, [Ljava/lang/Object;
 
-    const-string v3, "001"
+    const-string v3, "001 startTimer"
 
     aput-object v3, v2, v5
 
@@ -294,7 +294,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 startTimer"
 
     aput-object v2, v1, v5
 
@@ -319,7 +319,7 @@
 
     new-array v1, v3, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 stopTimer"
 
     aput-object v2, v1, v4
 
@@ -333,7 +333,7 @@
 
     new-array v1, v3, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 stopTimer"
 
     aput-object v2, v1, v4
 

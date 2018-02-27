@@ -53,7 +53,7 @@
 
     const/4 v9, 0x0
 
-    const-string v10, "000"
+    const-string v10, "000 onServiceConnected"
 
     aput-object v10, v8, v9
 
@@ -126,7 +126,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "010"
+    const-string v11, "010 onServiceConnected"
 
     aput-object v11, v9, v10
 
@@ -160,7 +160,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "800"
+    const-string v11, "800 onServiceConnected"
 
     aput-object v11, v9, v10
 
@@ -206,7 +206,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "701"
+    const-string v11, "701 onServiceConnected"
 
     aput-object v11, v9, v10
 
@@ -250,7 +250,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "014"
+    const-string v11, "014 onServiceConnected"
 
     aput-object v11, v9, v10
 
@@ -282,7 +282,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "010"
+    const-string v11, "010 onServiceConnected"
 
     aput-object v11, v9, v10
 
@@ -313,7 +313,7 @@
 
     const/4 v9, 0x0
 
-    const-string v10, "030"
+    const-string v10, "030 onServiceConnected"
 
     aput-object v10, v8, v9
 
@@ -364,7 +364,7 @@
 
     const/4 v9, 0x0
 
-    const-string v10, "011"
+    const-string v10, "011 onServiceConnected"
 
     aput-object v10, v8, v9
 
@@ -383,7 +383,7 @@
 
     const/4 v9, 0x0
 
-    const-string v10, "999"
+    const-string v10, "999 onServiceConnected"
 
     aput-object v10, v8, v9
 
@@ -420,7 +420,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "703"
+    const-string v11, "703 onServiceConnected"
 
     aput-object v11, v9, v10
 
@@ -466,7 +466,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "702"
+    const-string v11, "702 onServiceConnected"
 
     aput-object v11, v9, v10
 
@@ -526,7 +526,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "014"
+    const-string v11, "014 onServiceConnected"
 
     aput-object v11, v9, v10
 
@@ -558,7 +558,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "010"
+    const-string v11, "010 onServiceConnected"
 
     aput-object v11, v9, v10
 
@@ -626,7 +626,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "014"
+    const-string v11, "014 onServiceConnected"
 
     aput-object v11, v9, v10
 
@@ -658,7 +658,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "010"
+    const-string v11, "010 onServiceConnected"
 
     aput-object v11, v9, v10
 
@@ -686,7 +686,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "709"
+    const-string v11, "709 onServiceConnected"
 
     aput-object v11, v9, v10
 
@@ -730,7 +730,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "014"
+    const-string v11, "014 onServiceConnected"
 
     aput-object v11, v9, v10
 
@@ -762,7 +762,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "010"
+    const-string v11, "010 onServiceConnected"
 
     aput-object v11, v9, v10
 
@@ -789,7 +789,7 @@
 
     const/4 v11, 0x0
 
-    const-string v12, "014"
+    const-string v12, "014 onServiceConnected"
 
     aput-object v12, v10, v11
 
@@ -821,7 +821,7 @@
 
     const/4 v11, 0x0
 
-    const-string v12, "010"
+    const-string v12, "010 onServiceConnected"
 
     aput-object v12, v10, v11
 
@@ -842,7 +842,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "020"
+    const-string v11, "020 onServiceConnected"
 
     aput-object v11, v9, v10
 
@@ -905,7 +905,7 @@
 
     const/4 v9, 0x0
 
-    const-string v10, "031"
+    const-string v10, "031 onServiceConnected"
 
     aput-object v10, v8, v9
 
@@ -975,7 +975,7 @@
 
     new-array v2, v10, [Ljava/lang/Object;
 
-    const-string v3, "000"
+    const-string v3, "000 onServiceDisconnected"
 
     aput-object v3, v2, v8
 
@@ -1013,7 +1013,7 @@
 
     const/4 v5, 0x0
 
-    const-string v6, "001"
+    const-string v6, "001 onServiceDisconnected"
 
     aput-object v6, v4, v5
 
@@ -1047,7 +1047,7 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    const-string v3, "002"
+    const-string v3, "002 onServiceDisconnected"
 
     aput-object v3, v2, v8
 
@@ -1078,7 +1078,7 @@
 
     new-array v2, v7, [Ljava/lang/Object;
 
-    const-string v3, "999"
+    const-string v3, "999 onServiceDisconnected"
 
     aput-object v3, v2, v8
 

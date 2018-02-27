@@ -70,7 +70,7 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    const-string v3, "000"
+    const-string v3, "000 mfc/AreaInformation"
 
     aput-object v3, v2, v5
 
@@ -116,7 +116,7 @@
 
     new-array v2, v4, [Ljava/lang/Object;
 
-    const-string v3, "999"
+    const-string v3, "999 mfc/AreaInformation"
 
     aput-object v3, v2, v5
 
@@ -135,7 +135,7 @@
 
     new-array v2, v6, [Ljava/lang/Object;
 
-    const-string v3, "800"
+    const-string v3, "800 mfc/AreaInformation"
 
     aput-object v3, v2, v5
 
@@ -174,7 +174,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/AreaInformation"
 
     aput-object v2, v1, v3
 
@@ -188,7 +188,7 @@
     invoke-virtual {p0, p1}, Lcom/felicanetworks/mfc/AreaInformation;->readFromParcel(Landroid/os/Parcel;)V
 
     .line 169
-    const-string v0, "999"
+    const-string v0, "999 mfc/AreaInformation"
 
     new-array v1, v3, [Ljava/lang/Object;
 
@@ -235,7 +235,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 getAreaCode"
 
     aput-object v2, v1, v3
 
@@ -248,7 +248,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 getAreaCode"
 
     aput-object v2, v1, v3
 
@@ -283,7 +283,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 getEndServiceCode"
 
     aput-object v2, v1, v3
 
@@ -296,7 +296,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 getEndServiceCode"
 
     aput-object v2, v1, v3
 
@@ -334,7 +334,7 @@
 
     new-array v1, v6, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 readFromParcel"
 
     aput-object v2, v1, v3
 
@@ -357,7 +357,7 @@
     iput v0, p0, Lcom/felicanetworks/mfc/AreaInformation;->endServiceCode:I
 
     .line 158
-    const-string v0, "001 areaCode=%d  endServiceCode=%d"
+    const-string v0, "001 readFromParcel areaCode=%d  endServiceCode=%d"
 
     new-array v1, v6, [Ljava/lang/Object;
 
@@ -380,7 +380,7 @@
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;[Ljava/lang/Object;)V
 
     .line 159
-    const-string v0, "999"
+    const-string v0, "999 readFromParcel"
 
     new-array v1, v3, [Ljava/lang/Object;
 
@@ -413,7 +413,7 @@
 
     new-array v2, v6, [Ljava/lang/Object;
 
-    const-string v3, "000"
+    const-string v3, "000 setAreaCode"
 
     aput-object v3, v2, v5
 
@@ -443,7 +443,7 @@
 
     new-array v2, v4, [Ljava/lang/Object;
 
-    const-string v3, "999"
+    const-string v3, "999 setAreaCode"
 
     aput-object v3, v2, v5
 
@@ -462,7 +462,7 @@
 
     new-array v2, v6, [Ljava/lang/Object;
 
-    const-string v3, "800"
+    const-string v3, "800 setAreaCode"
 
     aput-object v3, v2, v5
 
@@ -505,7 +505,7 @@
 
     new-array v2, v6, [Ljava/lang/Object;
 
-    const-string v3, "001"
+    const-string v3, "001 setEndServiceCode"
 
     aput-object v3, v2, v5
 
@@ -535,7 +535,7 @@
 
     new-array v2, v4, [Ljava/lang/Object;
 
-    const-string v3, "999"
+    const-string v3, "999 setEndServiceCode"
 
     aput-object v3, v2, v5
 
@@ -554,7 +554,7 @@
 
     new-array v2, v6, [Ljava/lang/Object;
 
-    const-string v3, "800"
+    const-string v3, "800 setEndServiceCode"
 
     aput-object v3, v2, v5
 
@@ -595,7 +595,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 writeToParcel"
 
     aput-object v2, v1, v4
 
@@ -612,7 +612,7 @@
     .line 192
     const/4 v0, 0x6
 
-    const-string v1, "001 areaCode=%d  endServiceCode=%d"
+    const-string v1, "001 writeToParcel areaCode=%d  endServiceCode=%d"
 
     new-array v2, v3, [Ljava/lang/Object;
 
@@ -645,7 +645,7 @@
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
     .line 197
-    const-string v0, "999"
+    const-string v0, "999 writeToParcel"
 
     new-array v1, v4, [Ljava/lang/Object;
 

@@ -175,7 +175,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/Felica"
 
     aput-object v2, v1, v3
 
@@ -194,7 +194,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/Felica"
 
     aput-object v2, v1, v3
 
@@ -332,7 +332,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "000"
+    const-string v5, "000 activateFelica"
 
     aput-object v5, v3, v4
 
@@ -352,7 +352,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "710"
+    const-string v5, "710 activateFelica"
 
     aput-object v5, v3, v4
 
@@ -405,7 +405,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "711"
+    const-string v5, "711 activateFelica"
 
     aput-object v5, v3, v4
 
@@ -451,7 +451,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "999"
+    const-string v5, "999 activateFelica"
 
     aput-object v5, v3, v4
 
@@ -481,7 +481,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "712"
+    const-string v5, "712 activateFelica"
 
     aput-object v5, v3, v4
 
@@ -531,7 +531,7 @@
 
     new-array v3, v5, [Ljava/lang/Object;
 
-    const-string v4, "000"
+    const-string v4, "000 bindMfc"
 
     aput-object v4, v3, v6
 
@@ -573,7 +573,7 @@
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    const-string v4, "700"
+    const-string v4, "700 bindMfc"
 
     aput-object v4, v3, v6
 
@@ -613,7 +613,7 @@
 
     new-array v3, v5, [Ljava/lang/Object;
 
-    const-string v4, "999"
+    const-string v4, "999 bindMfc"
 
     aput-object v4, v3, v6
 
@@ -643,7 +643,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 checkActivated"
 
     aput-object v2, v1, v3
 
@@ -664,7 +664,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "001"
+    const-string v2, "001 checkActivated"
 
     aput-object v2, v1, v3
 
@@ -687,7 +687,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 checkActivated"
 
     aput-object v2, v1, v3
 
@@ -723,7 +723,7 @@
 
     new-array v2, v6, [Ljava/lang/Object;
 
-    const-string v3, "000"
+    const-string v3, "000 checkNotActivated"
 
     aput-object v3, v2, v5
 
@@ -739,7 +739,7 @@
 
     new-array v1, v8, [Ljava/lang/Object;
 
-    const-string v2, "700"
+    const-string v2, "700 checkNotActivated"
 
     aput-object v2, v1, v5
 
@@ -783,7 +783,7 @@
 
     new-array v1, v8, [Ljava/lang/Object;
 
-    const-string v2, "701"
+    const-string v2, "701 checkNotActivated"
 
     aput-object v2, v1, v5
 
@@ -824,7 +824,7 @@
 
     new-array v2, v6, [Ljava/lang/Object;
 
-    const-string v3, "999"
+    const-string v3, "999 checkNotActivated"
 
     aput-object v3, v2, v5
 
@@ -858,7 +858,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "000"
+    const-string v5, "000 checkOnlineAccess"
 
     aput-object v5, v3, v4
 
@@ -896,7 +896,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "999"
+    const-string v5, "999 checkOnlineAccess"
 
     aput-object v5, v3, v4
 
@@ -926,7 +926,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "700"
+    const-string v5, "700 checkOnlineAccess"
 
     aput-object v5, v3, v4
 
@@ -993,7 +993,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "701"
+    const-string v5, "701 checkOnlineAccess"
 
     aput-object v5, v3, v4
 
@@ -1025,7 +1025,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "702"
+    const-string v5, "702 checkOnlineAccess"
 
     aput-object v5, v3, v4
 
@@ -1068,7 +1068,7 @@
 
     new-array v1, v5, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 cleanUp"
 
     aput-object v2, v1, v4
 
@@ -1096,7 +1096,7 @@
 
     new-array v1, v5, [Ljava/lang/Object;
 
-    const-string v2, "001"
+    const-string v2, "001 cleanUp"
 
     aput-object v2, v1, v4
 
@@ -1131,7 +1131,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "001"
+    const-string v2, "001 cleanUp"
 
     aput-object v2, v1, v4
 
@@ -1160,7 +1160,7 @@
 
     new-array v1, v5, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 cleanUp"
 
     aput-object v2, v1, v4
 
@@ -1193,7 +1193,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "000"
+    const-string v5, "000 close"
 
     aput-object v5, v3, v4
 
@@ -1230,7 +1230,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "001"
+    const-string v5, "001 close"
 
     aput-object v5, v3, v4
 
@@ -1281,7 +1281,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "999"
+    const-string v5, "999 close"
 
     aput-object v5, v3, v4
 
@@ -1311,7 +1311,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "700"
+    const-string v5, "700 close"
 
     aput-object v5, v3, v4
 
@@ -1369,7 +1369,7 @@
 
     const/4 v5, 0x0
 
-    const-string v6, "001"
+    const-string v6, "001 close"
 
     aput-object v6, v4, v5
 
@@ -1439,7 +1439,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "701"
+    const-string v5, "701 close"
 
     aput-object v5, v3, v4
 
@@ -1492,7 +1492,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "000"
+    const-string v7, "000 getBlockCountInformation"
 
     aput-object v7, v5, v6
 
@@ -1529,7 +1529,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "800"
+    const-string v7, "800 getBlockCountInformation"
 
     aput-object v7, v5, v6
 
@@ -1566,7 +1566,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "700"
+    const-string v7, "700 getBlockCountInformation"
 
     aput-object v7, v5, v6
 
@@ -1658,7 +1658,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "999"
+    const-string v7, "999 getBlockCountInformation"
 
     aput-object v7, v5, v6
 
@@ -1690,7 +1690,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "702"
+    const-string v7, "702 getBlockCountInformation"
 
     aput-object v7, v5, v6
 
@@ -1716,7 +1716,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "701"
+    const-string v7, "701 getBlockCountInformation"
 
     aput-object v7, v5, v6
 
@@ -1765,7 +1765,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "000"
+    const-string v7, "000 getContainerId"
 
     aput-object v7, v5, v6
 
@@ -1816,7 +1816,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "999"
+    const-string v7, "999 getContainerId"
 
     aput-object v7, v5, v6
 
@@ -1852,7 +1852,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "700"
+    const-string v7, "700 getContainerId"
 
     aput-object v7, v5, v6
 
@@ -1919,7 +1919,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "701"
+    const-string v7, "701 getContainerId"
 
     aput-object v7, v5, v6
 
@@ -1968,7 +1968,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "000"
+    const-string v7, "000 getContainerIssueInformation"
 
     aput-object v7, v5, v6
 
@@ -2019,7 +2019,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "999"
+    const-string v7, "999 getContainerIssueInformation"
 
     aput-object v7, v5, v6
 
@@ -2055,7 +2055,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "700"
+    const-string v7, "700 getContainerIssueInformation"
 
     aput-object v7, v5, v6
 
@@ -2122,7 +2122,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "701"
+    const-string v7, "701 getContainerIssueInformation"
 
     aput-object v7, v5, v6
 
@@ -2171,7 +2171,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "000"
+    const-string v7, "000 getICCode"
 
     aput-object v7, v5, v6
 
@@ -2218,7 +2218,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "999"
+    const-string v7, "999 getICCode"
 
     aput-object v7, v5, v6
 
@@ -2254,7 +2254,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "700"
+    const-string v7, "700 getICCode"
 
     aput-object v7, v5, v6
 
@@ -2321,7 +2321,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "701"
+    const-string v7, "701 getICCode"
 
     aput-object v7, v5, v6
 
@@ -2370,7 +2370,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "000"
+    const-string v7, "000 getIDm"
 
     aput-object v7, v5, v6
 
@@ -2417,7 +2417,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "999"
+    const-string v7, "999 getIDm"
 
     aput-object v7, v5, v6
 
@@ -2453,7 +2453,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "700"
+    const-string v7, "700 getIDm"
 
     aput-object v7, v5, v6
 
@@ -2520,7 +2520,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "701"
+    const-string v7, "701 getIDm"
 
     aput-object v7, v5, v6
 
@@ -2564,7 +2564,7 @@
 
     const/4 v3, 0x0
 
-    const-string v4, "000"
+    const-string v4, "000 getIFelica"
 
     aput-object v4, v2, v3
 
@@ -2581,7 +2581,7 @@
 
     const/4 v3, 0x0
 
-    const-string v4, "999"
+    const-string v4, "999 getIFelica"
 
     aput-object v4, v2, v3
 
@@ -2628,7 +2628,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "000"
+    const-string v7, "000 getInterface"
 
     aput-object v7, v5, v6
 
@@ -2679,7 +2679,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "999"
+    const-string v7, "999 getInterface"
 
     aput-object v7, v5, v6
 
@@ -2719,7 +2719,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "700"
+    const-string v7, "700 getInterface"
 
     aput-object v7, v5, v6
 
@@ -2786,7 +2786,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "701"
+    const-string v7, "701 getInterface"
 
     aput-object v7, v5, v6
 
@@ -2837,7 +2837,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "000"
+    const-string v7, "000 getKeyVersion"
 
     aput-object v7, v5, v6
 
@@ -2893,7 +2893,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "999"
+    const-string v7, "999 getKeyVersion"
 
     aput-object v7, v5, v6
 
@@ -2933,7 +2933,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "700"
+    const-string v7, "700 getKeyVersion"
 
     aput-object v7, v5, v6
 
@@ -3000,7 +3000,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "702"
+    const-string v7, "702 getKeyVersion"
 
     aput-object v7, v5, v6
 
@@ -3034,7 +3034,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "701"
+    const-string v7, "701 getKeyVersion"
 
     aput-object v7, v5, v6
 
@@ -3085,7 +3085,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "000"
+    const-string v7, "000 getNodeInformation"
 
     aput-object v7, v5, v6
 
@@ -3144,7 +3144,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "999"
+    const-string v7, "999 getNodeInformation"
 
     aput-object v7, v5, v6
 
@@ -3176,7 +3176,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "700"
+    const-string v7, "700 getNodeInformation"
 
     aput-object v7, v5, v6
 
@@ -3243,7 +3243,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "702"
+    const-string v7, "702 getNodeInformation"
 
     aput-object v7, v5, v6
 
@@ -3269,7 +3269,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "701"
+    const-string v7, "701 getNodeInformation"
 
     aput-object v7, v5, v6
 
@@ -3320,7 +3320,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "000"
+    const-string v7, "000 getPrivacyNodeInformation"
 
     aput-object v7, v5, v6
 
@@ -3379,7 +3379,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "999"
+    const-string v7, "999 getPrivacyNodeInformation"
 
     aput-object v7, v5, v6
 
@@ -3411,7 +3411,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "700"
+    const-string v7, "700 getPrivacyNodeInformation"
 
     aput-object v7, v5, v6
 
@@ -3478,7 +3478,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "702"
+    const-string v7, "702 getPrivacyNodeInformation"
 
     aput-object v7, v5, v6
 
@@ -3504,7 +3504,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "701"
+    const-string v7, "701 getPrivacyNodeInformation"
 
     aput-object v7, v5, v6
 
@@ -3553,7 +3553,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "000"
+    const-string v7, "000 getRFSState"
 
     aput-object v7, v5, v6
 
@@ -3604,7 +3604,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "999"
+    const-string v7, "999 getRFSState"
 
     aput-object v7, v5, v6
 
@@ -3644,7 +3644,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "700"
+    const-string v7, "700 getRFSState"
 
     aput-object v7, v5, v6
 
@@ -3711,7 +3711,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "701"
+    const-string v7, "701 getRFSState"
 
     aput-object v7, v5, v6
 
@@ -3752,7 +3752,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 getRetryCount"
 
     aput-object v2, v1, v3
 
@@ -3765,7 +3765,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 getRetryCount"
 
     aput-object v2, v1, v3
 
@@ -3804,7 +3804,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "000"
+    const-string v7, "000 getSystemCode"
 
     aput-object v7, v5, v6
 
@@ -3855,7 +3855,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "999"
+    const-string v7, "999 getSystemCode"
 
     aput-object v7, v5, v6
 
@@ -3895,7 +3895,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "700"
+    const-string v7, "700 getSystemCode"
 
     aput-object v7, v5, v6
 
@@ -3962,7 +3962,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "701"
+    const-string v7, "701 getSystemCode"
 
     aput-object v7, v5, v6
 
@@ -4011,7 +4011,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "000"
+    const-string v7, "000 getSystemCodeList"
 
     aput-object v7, v5, v6
 
@@ -4062,7 +4062,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "999"
+    const-string v7, "999 getSystemCodeList"
 
     aput-object v7, v5, v6
 
@@ -4098,7 +4098,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "700"
+    const-string v7, "700 getSystemCodeList"
 
     aput-object v7, v5, v6
 
@@ -4165,7 +4165,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "701"
+    const-string v7, "701 getSystemCodeList"
 
     aput-object v7, v5, v6
 
@@ -4206,7 +4206,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 getTimeout"
 
     aput-object v2, v1, v3
 
@@ -4219,7 +4219,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 getTimeout"
 
     aput-object v2, v1, v3
 
@@ -4264,7 +4264,7 @@
 
     const/4 v5, 0x0
 
-    const-string v6, "000"
+    const-string v6, "000 inactivateFelica"
 
     aput-object v6, v4, v5
 
@@ -4301,7 +4301,7 @@
 
     const/4 v5, 0x0
 
-    const-string v6, "003"
+    const-string v6, "003 inactivateFelica"
 
     aput-object v6, v4, v5
 
@@ -4328,7 +4328,7 @@
 
     const/4 v5, 0x0
 
-    const-string v6, "999"
+    const-string v6, "999 inactivateFelica"
 
     aput-object v6, v4, v5
 
@@ -4359,7 +4359,7 @@
 
     const/4 v5, 0x0
 
-    const-string v6, "700"
+    const-string v6, "700 inactivateFelica"
 
     aput-object v6, v4, v5
 
@@ -4422,7 +4422,7 @@
 
     const/4 v5, 0x0
 
-    const-string v6, "001"
+    const-string v6, "001 inactivateFelica"
 
     aput-object v6, v4, v5
 
@@ -4442,7 +4442,7 @@
 
     const/4 v5, 0x0
 
-    const-string v6, "003"
+    const-string v6, "003 inactivateFelica"
 
     aput-object v6, v4, v5
 
@@ -4476,7 +4476,7 @@
 
     const/4 v5, 0x0
 
-    const-string v6, "900"
+    const-string v6, "900 inactivateFelica"
 
     aput-object v6, v4, v5
 
@@ -4519,7 +4519,7 @@
 
     const/4 v5, 0x0
 
-    const-string v6, "002"
+    const-string v6, "002 inactivateFelica"
 
     aput-object v6, v4, v5
 
@@ -4547,7 +4547,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "003"
+    const-string v7, "003 inactivateFelica"
 
     aput-object v7, v5, v6
 
@@ -4585,7 +4585,7 @@
 
     const/4 v5, 0x0
 
-    const-string v6, "701"
+    const-string v6, "701 inactivateFelica"
 
     aput-object v6, v4, v5
 
@@ -4628,7 +4628,7 @@
 
     const/4 v5, 0x0
 
-    const-string v6, "900"
+    const-string v6, "900 inactivateFelica"
 
     aput-object v6, v4, v5
 
@@ -4662,7 +4662,7 @@
 
     const/4 v5, 0x0
 
-    const-string v6, "900"
+    const-string v6, "900 inactivateFelica"
 
     aput-object v6, v4, v5
 
@@ -4698,7 +4698,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "000"
+    const-string v11, "000 onBind"
 
     aput-object v11, v9, v10
 
@@ -4756,7 +4756,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "800 service tag is not found."
+    const-string v11, "800 onBind service tag is not found."
 
     aput-object v11, v9, v10
 
@@ -4812,7 +4812,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "001"
+    const-string v11, "001 onBind"
 
     aput-object v11, v9, v10
 
@@ -4848,7 +4848,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "801 exported tag is enable."
+    const-string v11, "801 onBind exported tag is enable."
 
     aput-object v11, v9, v10
 
@@ -4871,7 +4871,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "999"
+    const-string v11, "999 onBind"
 
     aput-object v11, v9, v10
 
@@ -4905,7 +4905,7 @@
 
     const/4 v10, 0x0
 
-    const-string v11, "802"
+    const-string v11, "802 onBind"
 
     aput-object v11, v9, v10
 
@@ -4936,7 +4936,7 @@
 
     new-array v2, v7, [Ljava/lang/Object;
 
-    const-string v3, "000"
+    const-string v3, "000 onDestroy"
 
     aput-object v3, v2, v6
 
@@ -4960,7 +4960,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "001"
+    const-string v5, "001 onDestroy"
 
     aput-object v5, v3, v4
 
@@ -4985,7 +4985,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "002"
+    const-string v5, "002 onDestroy"
 
     aput-object v5, v3, v4
 
@@ -5024,7 +5024,7 @@
 
     new-array v2, v7, [Ljava/lang/Object;
 
-    const-string v3, "999"
+    const-string v3, "999 onDestroy"
 
     aput-object v3, v2, v6
 
@@ -5050,7 +5050,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "003"
+    const-string v5, "003 onDestroy"
 
     aput-object v5, v3, v4
 
@@ -5090,7 +5090,7 @@
 
     new-array v2, v8, [Ljava/lang/Object;
 
-    const-string v3, "004"
+    const-string v3, "004 onDestroy"
 
     aput-object v3, v2, v6
 
@@ -5125,7 +5125,7 @@
 
     new-array v2, v7, [Ljava/lang/Object;
 
-    const-string v3, "000"
+    const-string v3, "000 onUnbind"
 
     aput-object v3, v2, v6
 
@@ -5149,7 +5149,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "001"
+    const-string v5, "001 onUnbind"
 
     aput-object v5, v3, v4
 
@@ -5174,7 +5174,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "002"
+    const-string v5, "002 onUnbind"
 
     aput-object v5, v3, v4
 
@@ -5210,7 +5210,7 @@
 
     new-array v2, v7, [Ljava/lang/Object;
 
-    const-string v3, "999"
+    const-string v3, "999 onUnbind"
 
     aput-object v3, v2, v6
 
@@ -5240,7 +5240,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "003"
+    const-string v5, "003 onUnbind"
 
     aput-object v5, v3, v4
 
@@ -5280,7 +5280,7 @@
 
     new-array v2, v8, [Ljava/lang/Object;
 
-    const-string v3, "004"
+    const-string v3, "004 onUnbind"
 
     aput-object v3, v2, v6
 
@@ -5318,7 +5318,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "000"
+    const-string v5, "000 open"
 
     aput-object v5, v3, v4
 
@@ -5355,7 +5355,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "999"
+    const-string v5, "999 open"
 
     aput-object v5, v3, v4
 
@@ -5385,7 +5385,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "700"
+    const-string v5, "700 open"
 
     aput-object v5, v3, v4
 
@@ -5452,7 +5452,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "701"
+    const-string v5, "701 open"
 
     aput-object v5, v3, v4
 
@@ -5503,7 +5503,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "000"
+    const-string v5, "000 push"
 
     aput-object v5, v3, v4
 
@@ -5529,7 +5529,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "710"
+    const-string v5, "710 push"
 
     aput-object v5, v3, v4
 
@@ -5572,7 +5572,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "700"
+    const-string v5, "700 push"
 
     aput-object v5, v3, v4
 
@@ -5654,7 +5654,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "999"
+    const-string v5, "999 push"
 
     aput-object v5, v3, v4
 
@@ -5684,7 +5684,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "702"
+    const-string v5, "702 push"
 
     aput-object v5, v3, v4
 
@@ -5724,7 +5724,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "701"
+    const-string v5, "701 push"
 
     aput-object v5, v3, v4
 
@@ -5775,7 +5775,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "000"
+    const-string v7, "000 read"
 
     aput-object v7, v5, v6
 
@@ -5808,7 +5808,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "710"
+    const-string v7, "710 read"
 
     aput-object v7, v5, v6
 
@@ -5851,7 +5851,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "700"
+    const-string v7, "700 read"
 
     aput-object v7, v5, v6
 
@@ -5943,7 +5943,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "999"
+    const-string v7, "999 read"
 
     aput-object v7, v5, v6
 
@@ -5979,7 +5979,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "702"
+    const-string v7, "702 read"
 
     aput-object v7, v5, v6
 
@@ -6005,7 +6005,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "701"
+    const-string v7, "701 read"
 
     aput-object v7, v5, v6
 
@@ -6054,7 +6054,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "000"
+    const-string v5, "000 reset"
 
     aput-object v5, v3, v4
 
@@ -6091,7 +6091,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "999"
+    const-string v5, "999 reset"
 
     aput-object v5, v3, v4
 
@@ -6121,7 +6121,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "700"
+    const-string v5, "700 reset"
 
     aput-object v5, v3, v4
 
@@ -6188,7 +6188,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "701"
+    const-string v5, "701 reset"
 
     aput-object v5, v3, v4
 
@@ -6241,7 +6241,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "000"
+    const-string v5, "000 select"
 
     aput-object v5, v3, v4
 
@@ -6272,7 +6272,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "710"
+    const-string v5, "710 select"
 
     aput-object v5, v3, v4
 
@@ -6317,7 +6317,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "700"
+    const-string v5, "700 select"
 
     aput-object v5, v3, v4
 
@@ -6398,7 +6398,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "711"
+    const-string v5, "711 select"
 
     aput-object v5, v3, v4
 
@@ -6443,7 +6443,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "702"
+    const-string v5, "702 select"
 
     aput-object v5, v3, v4
 
@@ -6491,7 +6491,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "999"
+    const-string v5, "999 select"
 
     aput-object v5, v3, v4
 
@@ -6521,7 +6521,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "701"
+    const-string v5, "701 select"
 
     aput-object v5, v3, v4
 
@@ -6577,7 +6577,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "000"
+    const-string v5, "000 select"
 
     aput-object v5, v3, v4
 
@@ -6605,7 +6605,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "710"
+    const-string v5, "710 select"
 
     aput-object v5, v3, v4
 
@@ -6650,7 +6650,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "700"
+    const-string v5, "700 select"
 
     aput-object v5, v3, v4
 
@@ -6721,7 +6721,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "711"
+    const-string v5, "711 select"
 
     aput-object v5, v3, v4
 
@@ -6766,7 +6766,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "702"
+    const-string v5, "702 select"
 
     aput-object v5, v3, v4
 
@@ -6817,7 +6817,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "712"
+    const-string v5, "712 select"
 
     aput-object v5, v3, v4
 
@@ -6862,7 +6862,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "701"
+    const-string v5, "701 select"
 
     aput-object v5, v3, v4
 
@@ -6916,7 +6916,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "999"
+    const-string v5, "999 select"
 
     aput-object v5, v3, v4
 
@@ -6959,7 +6959,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "000"
+    const-string v5, "000 setNodeCodeSize"
 
     aput-object v5, v3, v4
 
@@ -6987,7 +6987,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "710"
+    const-string v5, "710 setNodeCodeSize"
 
     aput-object v5, v3, v4
 
@@ -7038,7 +7038,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "700"
+    const-string v5, "700 setNodeCodeSize"
 
     aput-object v5, v3, v4
 
@@ -7120,7 +7120,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "999"
+    const-string v5, "999 setNodeCodeSize"
 
     aput-object v5, v3, v4
 
@@ -7150,7 +7150,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "702"
+    const-string v5, "702 setNodeCodeSize"
 
     aput-object v5, v3, v4
 
@@ -7184,7 +7184,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "701"
+    const-string v5, "701 setNodeCodeSize"
 
     aput-object v5, v3, v4
 
@@ -7235,7 +7235,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "000"
+    const-string v5, "000 setPrivacy"
 
     aput-object v5, v3, v4
 
@@ -7266,7 +7266,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "710"
+    const-string v5, "710 setPrivacy"
 
     aput-object v5, v3, v4
 
@@ -7309,7 +7309,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "700"
+    const-string v5, "700 setPrivacy"
 
     aput-object v5, v3, v4
 
@@ -7391,7 +7391,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "999"
+    const-string v5, "999 setPrivacy"
 
     aput-object v5, v3, v4
 
@@ -7421,7 +7421,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "702"
+    const-string v5, "702 setPrivacy"
 
     aput-object v5, v3, v4
 
@@ -7461,7 +7461,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "701"
+    const-string v5, "701 setPrivacy"
 
     aput-object v5, v3, v4
 
@@ -7513,7 +7513,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "000"
+    const-string v7, "000 setPushNotificationListener"
 
     aput-object v7, v5, v6
 
@@ -7541,7 +7541,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "001"
+    const-string v7, "001 setPushNotificationListener"
 
     aput-object v7, v5, v6
 
@@ -7578,7 +7578,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "700"
+    const-string v7, "700 setPushNotificationListener"
 
     aput-object v7, v5, v6
 
@@ -7644,7 +7644,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "002"
+    const-string v7, "002 setPushNotificationListener"
 
     aput-object v7, v5, v6
 
@@ -7676,7 +7676,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "800"
+    const-string v7, "800 setPushNotificationListener"
 
     aput-object v7, v5, v6
 
@@ -7713,7 +7713,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "702"
+    const-string v7, "702 setPushNotificationListener"
 
     aput-object v7, v5, v6
 
@@ -7772,7 +7772,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "003"
+    const-string v7, "003 setPushNotificationListener"
 
     aput-object v7, v5, v6
 
@@ -7817,7 +7817,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "004"
+    const-string v7, "004 setPushNotificationListener"
 
     aput-object v7, v5, v6
 
@@ -7851,7 +7851,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "999"
+    const-string v7, "999 setPushNotificationListener"
 
     aput-object v7, v5, v6
 
@@ -7897,7 +7897,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "801"
+    const-string v7, "801 setPushNotificationListener"
 
     aput-object v7, v5, v6
 
@@ -7935,7 +7935,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "701"
+    const-string v7, "701 setPushNotificationListener"
 
     aput-object v7, v5, v6
 
@@ -7987,7 +7987,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "710"
+    const-string v7, "710 setPushNotificationListener"
 
     aput-object v7, v5, v6
 
@@ -8037,7 +8037,7 @@
 
     const/4 v3, 0x0
 
-    const-string v4, "000"
+    const-string v4, "000 setRetryCount"
 
     aput-object v4, v2, v3
 
@@ -8070,7 +8070,7 @@
 
     const/4 v3, 0x0
 
-    const-string v4, "001"
+    const-string v4, "001 setRetryCount"
 
     aput-object v4, v2, v3
 
@@ -8088,7 +8088,7 @@
 
     const/4 v3, 0x0
 
-    const-string v4, "999"
+    const-string v4, "999 setRetryCount"
 
     aput-object v4, v2, v3
 
@@ -8134,7 +8134,7 @@
 
     const/4 v3, 0x0
 
-    const-string v4, "002"
+    const-string v4, "002 setRetryCount"
 
     aput-object v4, v2, v3
 
@@ -8168,7 +8168,7 @@
 
     const/4 v3, 0x0
 
-    const-string v4, "003"
+    const-string v4, "003 setRetryCount"
 
     aput-object v4, v2, v3
 
@@ -8198,7 +8198,7 @@
 
     const/4 v3, 0x0
 
-    const-string v4, "000"
+    const-string v4, "000 setTimeout"
 
     aput-object v4, v2, v3
 
@@ -8231,7 +8231,7 @@
 
     const/4 v3, 0x0
 
-    const-string v4, "001"
+    const-string v4, "001 setTimeout"
 
     aput-object v4, v2, v3
 
@@ -8249,7 +8249,7 @@
 
     const/4 v3, 0x0
 
-    const-string v4, "999"
+    const-string v4, "999 setTimeout"
 
     aput-object v4, v2, v3
 
@@ -8295,7 +8295,7 @@
 
     const/4 v3, 0x0
 
-    const-string v4, "002"
+    const-string v4, "002 setTimeout"
 
     aput-object v4, v2, v3
 
@@ -8329,7 +8329,7 @@
 
     const/4 v3, 0x0
 
-    const-string v4, "003"
+    const-string v4, "003 setTimeout"
 
     aput-object v4, v2, v3
 
@@ -8355,7 +8355,7 @@
 
     new-array v2, v7, [Ljava/lang/Object;
 
-    const-string v3, "000"
+    const-string v3, "000 unbindMfc"
 
     aput-object v3, v2, v6
 
@@ -8373,7 +8373,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "001"
+    const-string v5, "001 unbindMfc"
 
     aput-object v5, v3, v4
 
@@ -8395,7 +8395,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "002"
+    const-string v5, "002 unbindMfc"
 
     aput-object v5, v3, v4
 
@@ -8409,7 +8409,7 @@
 
     new-array v2, v7, [Ljava/lang/Object;
 
-    const-string v3, "003"
+    const-string v3, "003 unbindMfc"
 
     aput-object v3, v2, v6
 
@@ -8424,7 +8424,7 @@
 
     new-array v2, v7, [Ljava/lang/Object;
 
-    const-string v3, "999"
+    const-string v3, "999 unbindMfc"
 
     aput-object v3, v2, v6
 
@@ -8450,7 +8450,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "004"
+    const-string v5, "004 unbindMfc"
 
     aput-object v5, v3, v4
 
@@ -8469,7 +8469,7 @@
 
     new-array v2, v7, [Ljava/lang/Object;
 
-    const-string v3, "003"
+    const-string v3, "003 unbindMfc"
 
     aput-object v3, v2, v6
 
@@ -8490,7 +8490,7 @@
 
     new-array v3, v7, [Ljava/lang/Object;
 
-    const-string v4, "003"
+    const-string v4, "003 unbindMfc"
 
     aput-object v4, v3, v6
 
@@ -8528,7 +8528,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "000"
+    const-string v5, "000 write"
 
     aput-object v5, v3, v4
 
@@ -8561,7 +8561,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "710"
+    const-string v5, "710 write"
 
     aput-object v5, v3, v4
 
@@ -8604,7 +8604,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "700"
+    const-string v5, "700 write"
 
     aput-object v5, v3, v4
 
@@ -8686,7 +8686,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "999"
+    const-string v5, "999 write"
 
     aput-object v5, v3, v4
 
@@ -8716,7 +8716,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "702"
+    const-string v5, "702 write"
 
     aput-object v5, v3, v4
 
@@ -8742,7 +8742,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "701"
+    const-string v5, "701 write"
 
     aput-object v5, v3, v4
 

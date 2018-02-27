@@ -59,7 +59,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/PushSegmentParcelableWrapper"
 
     aput-object v2, v1, v3
 
@@ -87,7 +87,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/PushSegmentParcelableWrapper"
 
     aput-object v2, v1, v3
 
@@ -132,7 +132,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/PushSegmentParcelableWrapper"
 
     aput-object v2, v1, v3
 
@@ -148,7 +148,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/PushSegmentParcelableWrapper"
 
     aput-object v2, v1, v3
 
@@ -175,7 +175,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 describeContents"
 
     aput-object v2, v1, v3
 
@@ -186,7 +186,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 describeContents"
 
     aput-object v2, v1, v3
 
@@ -211,7 +211,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 getPushSegment"
 
     aput-object v2, v1, v3
 
@@ -224,7 +224,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 getPushSegment"
 
     aput-object v2, v1, v3
 
@@ -258,7 +258,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 setPushSegment"
 
     aput-object v2, v1, v3
 
@@ -274,7 +274,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 setPushSegment"
 
     aput-object v2, v1, v3
 
@@ -301,7 +301,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 writeToParcel"
 
     aput-object v2, v1, v3
 
@@ -317,7 +317,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 writeToParcel"
 
     aput-object v2, v1, v3
 

@@ -57,7 +57,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/PushNotifyAppSegment"
 
     aput-object v2, v1, v3
 
@@ -71,7 +71,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/PushNotifyAppSegment"
 
     aput-object v2, v1, v3
 
@@ -115,7 +115,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/PushNotifyAppSegment"
 
     aput-object v2, v1, v3
 
@@ -135,7 +135,7 @@
 
     new-array v1, v6, [Ljava/lang/Object;
 
-    const-string v2, "001"
+    const-string v2, "001 mfc/PushNotifyAppSegment"
 
     aput-object v2, v1, v3
 
@@ -150,7 +150,7 @@
 
     new-array v1, v6, [Ljava/lang/Object;
 
-    const-string v2, "001"
+    const-string v2, "001 mfc/PushNotifyAppSegment"
 
     aput-object v2, v1, v3
 
@@ -168,7 +168,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/PushNotifyAppSegment"
 
     aput-object v2, v1, v3
 
@@ -194,7 +194,7 @@
 
     new-array v1, v3, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 readFromParcel"
 
     aput-object v2, v1, v4
 
@@ -208,7 +208,7 @@
 
     new-array v1, v3, [Ljava/lang/Object;
 
-    const-string v2, "700"
+    const-string v2, "700 readFromParcel"
 
     aput-object v2, v1, v4
 
@@ -247,7 +247,7 @@
 
     new-array v1, v3, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 readFromParcel"
 
     aput-object v2, v1, v4
 
@@ -279,7 +279,7 @@
 
     new-array v1, v3, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 checkFormat"
 
     aput-object v2, v1, v4
 
@@ -297,7 +297,7 @@
 
     new-array v1, v3, [Ljava/lang/Object;
 
-    const-string v2, "700"
+    const-string v2, "700 checkFormat"
 
     aput-object v2, v1, v4
 
@@ -316,7 +316,7 @@
 
     new-array v1, v3, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 checkFormat"
 
     aput-object v2, v1, v4
 
@@ -341,7 +341,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 describeContents"
 
     aput-object v2, v1, v3
 
@@ -352,7 +352,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 describeContents"
 
     aput-object v2, v1, v3
 
@@ -377,7 +377,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 getAppIdentificationCode"
 
     aput-object v2, v1, v3
 
@@ -390,7 +390,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 getAppIdentificationCode"
 
     aput-object v2, v1, v3
 
@@ -421,7 +421,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 getAppNotificationParam"
 
     aput-object v2, v1, v3
 
@@ -432,7 +432,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 getAppNotificationParam"
 
     aput-object v2, v1, v3
 
@@ -462,7 +462,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 setAppIdentificationCode"
 
     aput-object v2, v1, v3
 
@@ -475,7 +475,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 setAppIdentificationCode"
 
     aput-object v2, v1, v3
 
@@ -504,7 +504,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 setAppNotificationParam"
 
     aput-object v2, v1, v3
 
@@ -515,7 +515,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 setAppNotificationParam"
 
     aput-object v2, v1, v3
 
@@ -545,7 +545,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 writeToParcel"
 
     aput-object v2, v1, v3
 
@@ -566,7 +566,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 writeToParcel"
 
     aput-object v2, v1, v3
 

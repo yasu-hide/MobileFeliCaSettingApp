@@ -73,7 +73,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/PINChangeData"
 
     aput-object v2, v1, v4
 
@@ -104,7 +104,7 @@
 
     new-array v1, v5, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/PINChangeData"
 
     aput-object v2, v1, v4
 
@@ -135,7 +135,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/PINChangeData"
 
     aput-object v2, v1, v3
 
@@ -151,7 +151,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 mfc/PINChangeData"
 
     aput-object v2, v1, v3
 
@@ -189,7 +189,7 @@
 
     new-array v1, v5, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 readFromParcel"
 
     aput-object v2, v1, v3
 
@@ -218,7 +218,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 readFromParcel"
 
     aput-object v2, v1, v3
 
@@ -270,7 +270,7 @@
 
     new-array v1, v5, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 checkFormat"
 
     aput-object v2, v1, v4
 
@@ -299,7 +299,7 @@
 
     new-array v1, v6, [Ljava/lang/Object;
 
-    const-string v2, "800"
+    const-string v2, "800 checkFormat"
 
     aput-object v2, v1, v4
 
@@ -346,7 +346,7 @@
 
     new-array v1, v6, [Ljava/lang/Object;
 
-    const-string v2, "801"
+    const-string v2, "801 checkFormat"
 
     aput-object v2, v1, v4
 
@@ -375,7 +375,7 @@
 
     new-array v1, v5, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 checkFormat"
 
     aput-object v2, v1, v4
 
@@ -410,7 +410,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 getNewPIN"
 
     aput-object v2, v1, v3
 
@@ -423,7 +423,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 getNewPIN"
 
     aput-object v2, v1, v3
 
@@ -458,7 +458,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 getPIN"
 
     aput-object v2, v1, v3
 
@@ -471,7 +471,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 getPIN"
 
     aput-object v2, v1, v3
 
@@ -508,7 +508,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 getType"
 
     aput-object v2, v1, v3
 
@@ -521,7 +521,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 getType"
 
     aput-object v2, v1, v3
 
@@ -560,7 +560,7 @@
 
     new-array v1, v5, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 setNewPIN"
 
     aput-object v2, v1, v3
 
@@ -591,7 +591,7 @@
 
     new-array v1, v5, [Ljava/lang/Object;
 
-    const-string v2, "800"
+    const-string v2, "800 setNewPIN"
 
     aput-object v2, v1, v3
 
@@ -621,7 +621,7 @@
 
     new-array v1, v5, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 setNewPIN"
 
     aput-object v2, v1, v3
 
@@ -662,7 +662,7 @@
 
     new-array v1, v5, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 setPIN"
 
     aput-object v2, v1, v3
 
@@ -693,7 +693,7 @@
 
     new-array v1, v5, [Ljava/lang/Object;
 
-    const-string v2, "800"
+    const-string v2, "800 setPIN"
 
     aput-object v2, v1, v3
 
@@ -723,7 +723,7 @@
 
     new-array v1, v5, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 setPIN"
 
     aput-object v2, v1, v3
 
@@ -760,7 +760,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 writeToParcel"
 
     aput-object v2, v1, v4
 
@@ -791,7 +791,7 @@
 
     new-array v1, v5, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 writeToParcel"
 
     aput-object v2, v1, v4
 

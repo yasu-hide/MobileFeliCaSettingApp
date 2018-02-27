@@ -60,7 +60,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/NodeInformation"
 
     aput-object v2, v1, v3
 
@@ -74,7 +74,7 @@
     invoke-virtual {p0, p1}, Lcom/felicanetworks/mfc/NodeInformation;->readFromParcel(Landroid/os/Parcel;)V
 
     .line 222
-    const-string v0, "999"
+    const-string v0, "999 mfc/NodeInformation"
 
     new-array v1, v3, [Ljava/lang/Object;
 
@@ -123,7 +123,7 @@
 
     new-array v3, v8, [Ljava/lang/Object;
 
-    const-string v4, "000"
+    const-string v4, "000 mfc/NodeInformation"
 
     aput-object v4, v3, v6
 
@@ -146,7 +146,7 @@
 
     new-array v3, v8, [Ljava/lang/Object;
 
-    const-string v4, "800"
+    const-string v4, "800 mfc/NodeInformation"
 
     aput-object v4, v3, v6
 
@@ -176,7 +176,7 @@
 
     new-array v3, v7, [Ljava/lang/Object;
 
-    const-string v4, "801"
+    const-string v4, "801 mfc/NodeInformation"
 
     aput-object v4, v3, v6
 
@@ -208,7 +208,7 @@
 
     new-array v3, v7, [Ljava/lang/Object;
 
-    const-string v4, "802"
+    const-string v4, "802 mfc/NodeInformation"
 
     aput-object v4, v3, v6
 
@@ -253,7 +253,7 @@
 
     new-array v3, v5, [Ljava/lang/Object;
 
-    const-string v4, "999"
+    const-string v4, "999 mfc/NodeInformation"
 
     aput-object v4, v3, v6
 
@@ -290,7 +290,7 @@
 
     new-array v3, v7, [Ljava/lang/Object;
 
-    const-string v4, "803"
+    const-string v4, "803 mfc/NodeInformation"
 
     aput-object v4, v3, v6
 
@@ -337,7 +337,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 getAreaInformationList"
 
     aput-object v2, v1, v3
 
@@ -350,7 +350,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 getAreaInformationList"
 
     aput-object v2, v1, v3
 
@@ -381,7 +381,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 getServiceCodeList"
 
     aput-object v2, v1, v3
 
@@ -394,7 +394,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 getServiceCodeList"
 
     aput-object v2, v1, v3
 
@@ -426,7 +426,7 @@
 
     new-array v4, v4, [Ljava/lang/Object;
 
-    const-string v5, "000"
+    const-string v5, "000 readFromParcel"
 
     aput-object v5, v4, v6
 
@@ -490,7 +490,7 @@
 
     .line 212
     :cond_1
-    const-string v3, "999"
+    const-string v3, "999 readFromParcel"
 
     new-array v4, v6, [Ljava/lang/Object;
 
@@ -540,7 +540,7 @@
 
     new-array v1, v5, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 setAreaInformationList"
 
     aput-object v2, v1, v4
 
@@ -556,7 +556,7 @@
 
     new-array v1, v5, [Ljava/lang/Object;
 
-    const-string v2, "800"
+    const-string v2, "800 setAreaInformationList"
 
     aput-object v2, v1, v4
 
@@ -583,7 +583,7 @@
 
     new-array v1, v5, [Ljava/lang/Object;
 
-    const-string v2, "801"
+    const-string v2, "801 setAreaInformationList"
 
     aput-object v2, v1, v4
 
@@ -613,7 +613,7 @@
 
     new-array v1, v3, [Ljava/lang/Object;
 
-    const-string v2, "999"
+    const-string v2, "999 setAreaInformationList"
 
     aput-object v2, v1, v4
 
@@ -646,7 +646,7 @@
 
     new-array v3, v7, [Ljava/lang/Object;
 
-    const-string v4, "000"
+    const-string v4, "000 setServiceCodeList"
 
     aput-object v4, v3, v6
 
@@ -662,7 +662,7 @@
 
     new-array v3, v7, [Ljava/lang/Object;
 
-    const-string v4, "800"
+    const-string v4, "800 setServiceCodeList"
 
     aput-object v4, v3, v6
 
@@ -689,7 +689,7 @@
 
     new-array v3, v7, [Ljava/lang/Object;
 
-    const-string v4, "801"
+    const-string v4, "801 setServiceCodeList"
 
     aput-object v4, v3, v6
 
@@ -731,7 +731,7 @@
 
     new-array v3, v5, [Ljava/lang/Object;
 
-    const-string v4, "999"
+    const-string v4, "999 setServiceCodeList"
 
     aput-object v4, v3, v6
 
@@ -768,7 +768,7 @@
 
     new-array v3, v7, [Ljava/lang/Object;
 
-    const-string v4, "802"
+    const-string v4, "802 setServiceCodeList"
 
     aput-object v4, v3, v6
 
@@ -805,7 +805,7 @@
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    const-string v4, "000"
+    const-string v4, "000 writeToParcel"
 
     aput-object v4, v3, v1
 
@@ -848,7 +848,7 @@
     .line 255
     const/4 v0, 0x7
 
-    const-string v2, "999"
+    const-string v2, "999 writeToParcel"
 
     new-array v1, v1, [Ljava/lang/Object;
 

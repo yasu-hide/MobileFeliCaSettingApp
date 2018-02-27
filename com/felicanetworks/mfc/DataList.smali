@@ -82,7 +82,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 mfc/DataList"
 
     aput-object v2, v1, v3
 
@@ -103,7 +103,7 @@
     invoke-virtual {p0, p1}, Lcom/felicanetworks/mfc/DataList;->readFromParcel(Landroid/os/Parcel;)V
 
     .line 229
-    const-string v0, "999"
+    const-string v0, "999 mfc/DataList"
 
     new-array v1, v3, [Ljava/lang/Object;
 
@@ -328,7 +328,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 readFromParcel"
 
     aput-object v2, v1, v3
 
@@ -348,7 +348,7 @@
     invoke-virtual {p1, v0, v1}, Landroid/os/Parcel;->readList(Ljava/util/List;Ljava/lang/ClassLoader;)V
 
     .line 217
-    const-string v0, "001 dataList len=%d"
+    const-string v0, "001 readFromParcel dataList len=%d"
 
     new-array v1, v5, [Ljava/lang/Object;
 
@@ -367,7 +367,7 @@
     invoke-static {v4, v0, v1}, Lcom/felicanetworks/mfc/util/LogMgr;->log(ILjava/lang/String;[Ljava/lang/Object;)V
 
     .line 218
-    const-string v0, "999"
+    const-string v0, "999 readFromParcel"
 
     new-array v1, v3, [Ljava/lang/Object;
 
@@ -493,7 +493,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const-string v2, "000"
+    const-string v2, "000 writeToParcel"
 
     aput-object v2, v1, v4
 
@@ -512,7 +512,7 @@
     .line 252
     const/4 v0, 0x6
 
-    const-string v1, "001 dataList len=%d"
+    const-string v1, "001 writeToParcel dataList len=%d"
 
     new-array v2, v5, [Ljava/lang/Object;
 
@@ -536,7 +536,7 @@
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeList(Ljava/util/List;)V
 
     .line 257
-    const-string v0, "999"
+    const-string v0, "999 writeToParcel"
 
     new-array v1, v4, [Ljava/lang/Object;
 

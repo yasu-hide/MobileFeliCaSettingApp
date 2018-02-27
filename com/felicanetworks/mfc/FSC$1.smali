@@ -53,7 +53,7 @@
 
     new-array v3, v11, [Ljava/lang/Object;
 
-    const-string v4, "000"
+    const-string v4, "000 errorOccurred"
 
     aput-object v4, v3, v8
 
@@ -100,7 +100,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "001"
+    const-string v7, "001 errorOccurred"
 
     aput-object v7, v5, v6
 
@@ -139,7 +139,7 @@
 
     const/4 v5, 0x0
 
-    const-string v6, "002"
+    const-string v6, "002 errorOccurred"
 
     aput-object v6, v4, v5
 
@@ -153,7 +153,7 @@
 
     new-array v3, v9, [Ljava/lang/Object;
 
-    const-string v4, "999"
+    const-string v4, "999 errorOccurred"
 
     aput-object v4, v3, v8
 
@@ -186,7 +186,7 @@
 
     new-array v3, v10, [Ljava/lang/Object;
 
-    const-string v4, "700"
+    const-string v4, "700 errorOccurred"
 
     aput-object v4, v3, v8
 
@@ -214,7 +214,7 @@
 
     const/4 v5, 0x0
 
-    const-string v6, "003"
+    const-string v6, "003 errorOccurred"
 
     aput-object v6, v4, v5
 
@@ -236,7 +236,7 @@
 
     const/4 v5, 0x0
 
-    const-string v6, "004"
+    const-string v6, "004 errorOccurred"
 
     aput-object v6, v4, v5
 
@@ -256,7 +256,7 @@
 
     const/4 v5, 0x0
 
-    const-string v6, "005"
+    const-string v6, "005 errorOccurred"
 
     aput-object v6, v4, v5
 
@@ -288,7 +288,7 @@
 
     new-array v3, v10, [Ljava/lang/Object;
 
-    const-string v4, "000"
+    const-string v4, "000 finished"
 
     aput-object v4, v3, v8
 
@@ -333,7 +333,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "001"
+    const-string v7, "001 finished"
 
     aput-object v7, v5, v6
 
@@ -372,7 +372,7 @@
 
     const/4 v5, 0x0
 
-    const-string v6, "002"
+    const-string v6, "002 finished"
 
     aput-object v6, v4, v5
 
@@ -386,7 +386,7 @@
 
     new-array v3, v9, [Ljava/lang/Object;
 
-    const-string v4, "999"
+    const-string v4, "999 finished"
 
     aput-object v4, v3, v8
 
@@ -419,7 +419,7 @@
 
     new-array v3, v10, [Ljava/lang/Object;
 
-    const-string v4, "700"
+    const-string v4, "700 finished"
 
     aput-object v4, v3, v8
 
@@ -447,7 +447,7 @@
 
     const/4 v5, 0x0
 
-    const-string v6, "003"
+    const-string v6, "003 finished"
 
     aput-object v6, v4, v5
 
@@ -488,7 +488,7 @@
 
     new-array v4, v4, [Ljava/lang/Object;
 
-    const-string v5, "020"
+    const-string v5, "020 operationRequested"
 
     aput-object v5, v4, v10
 
@@ -528,7 +528,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "020"
+    const-string v7, "020 operationRequested"
 
     aput-object v7, v5, v6
 
@@ -569,7 +569,7 @@
 
     new-array v4, v11, [Ljava/lang/Object;
 
-    const-string v5, "999"
+    const-string v5, "999 operationRequested"
 
     aput-object v5, v4, v10
 
@@ -596,7 +596,7 @@
 
     const/4 v6, 0x0
 
-    const-string v7, "700"
+    const-string v7, "700 operationRequested"
 
     aput-object v7, v5, v6
 
@@ -624,7 +624,7 @@
 
     new-array v4, v9, [Ljava/lang/Object;
 
-    const-string v5, "020"
+    const-string v5, "020 operationRequested"
 
     aput-object v5, v4, v10
 
@@ -668,7 +668,7 @@
 
     new-array v4, v8, [Ljava/lang/Object;
 
-    const-string v5, "701"
+    const-string v5, "701 operationRequested"
 
     aput-object v5, v4, v10
 
